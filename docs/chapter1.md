@@ -116,4 +116,4 @@ The journey from digital intelligence to physical intelligence is not merely a t
 
 ---
 
-**Next Chapter**: [Chapter 2: Sensor Fusion & Perception →](./chapter2)
+**Next Chapter**: [Chapter 2: Foundations of AI & ML for Robotics →](./chapter2)
