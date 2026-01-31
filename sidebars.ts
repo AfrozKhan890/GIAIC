@@ -3,29 +3,33 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     {
-      type: 'doc',
-      id: 'chapter1', // This matches chapter1.md
-      label: 'Chapter 1: Introduction to Physical AI',
+      type: 'category',
+      label: '🧠 Physical AI Textbook',
+      items: [
+        'intro',
+        'chapter1',
+        'chapter2',
+        'chapter3',
+        'chapter4',
+        'chapter5',
+        'chapter6',
+        'chapter7',
+        'chapter8',
+        'chapter9',
+        'chapter10',
+      ],
     },
     {
-      type: 'doc',
-      id: 'chapter2',
-      label: 'Chapter 2: ROS 2 Fundamentals',
-    },
-    {
-      type: 'doc',
-      id: 'chapter3',
-      label: 'Chapter 3: Gazebo Simulation',
-    },
-    {
-      type: 'doc',
-      id: 'chapter4',
-      label: 'Chapter 4: NVIDIA Isaac Platform',
-    },
-    {
-      type: 'doc',
-      id: 'chapter5',
-      label: 'Chapter 5: Humanoid Robot Development',
+      type: 'category',
+      label: '📖 Additional Pages',
+      items: [
+        'about',
+        'resources',
+        'projects',
+        'blog',
+        'faq',
+        'contact',
+      ],
     },
   ],
 };

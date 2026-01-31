@@ -4,13 +4,13 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Physical AI & Humanoid Robotics',
-  tagline: 'Bridging the gap between digital brain and physical body',
-  favicon: 'img/favicon.ico',
+  tagline: 'From Neural Networks to Physical Intelligence',
+  favicon: 'img/brain-chip.svg',
 
-  url: 'https://yourusername.github.io',
-  baseUrl: '/',
+  url: 'https://Afrozkhan890.github.io',
+  baseUrl: '/physical-ai-book/',
 
-  organizationName: 'yourusername', // Change this to your GitHub username
+  organizationName: 'Afrozkhan890',
   projectName: 'physical-ai-book',
 
   onBrokenLinks: 'throw',
@@ -38,25 +38,29 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/social-card.jpg',
+    image: 'img/neural-network-og.jpg',
     colorMode: {
+      defaultMode: 'dark',
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Physical AI Textbook',
+      title: '🧠 Physical AI',
       logo: {
-        alt: 'Physical AI Logo',
-        src: 'img/logo.svg',
+        alt: 'Neural Robotics Logo',
+        src: 'img/neural-logo.svg',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Chapters',
+          label: '📚 Chapters',
         },
+        {to: '/about', label: '📖 About', position: 'left'},
+        {to: '/resources', label: '🛠️ Resources', position: 'left'},
+        {to: '/projects', label: '⚡ Projects', position: 'left'},
         {
-          href: 'https://github.com/yourusername/physical-ai-book',
+          href: 'https://github.com/Afrozkhan890/physical-ai-book',
           label: 'GitHub',
           position: 'right',
         },
@@ -64,44 +68,48 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
+      logo: {
+        alt: 'Neural AI Logo',
+        src: 'img/neural-logo.svg',
+        width: 60,
+        height: 60,
+      },
       links: [
         {
           title: 'Textbook',
           items: [
-            {
-              label: 'Chapters',
-              to: '/',
-            },
+            {label: 'Chapters', to: '/'},
+            {label: 'About', to: '/about'},
+            {label: 'Resources', to: '/resources'},
           ],
         },
         {
           title: 'Community',
           items: [
-            {
-              label: 'Panaversity',
-              href: 'https://panaversity.org',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/panaversity',
-            },
+            {label: 'Panaversity', href: 'https://panaversity.org'},
+            {label: 'GitHub', href: 'https://github.com/panaversity'},
+            {label: 'Discord', href: 'https://discord.gg/panaversity'},
           ],
         },
         {
-          title: 'More',
+          title: 'Hackathon',
           items: [
-            {
-              label: 'Hackathon',
-              href: 'https://forms.gle/CQsSEGM3GeCrL43c8',
-            },
+            {label: 'Submit Project', href: 'https://forms.gle/CQsSEGM3GeCrL43c8'},
+            {label: 'Live Presentation', href: 'https://us06web.zoom.us/j/84976847088'},
+            {label: 'Spec-Kit Plus', href: 'https://github.com/panaversity/spec-kit-plus'},
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics Textbook. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Neural Physical AI Textbook. Built for Panaversity Hackathon.`,
     },
     prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      theme: prismThemes.vsDark,
+      darkTheme: prismThemes.vsDark,
+    },
+    algolia: {
+      appId: 'YOUR_APP_ID',
+      apiKey: 'YOUR_API_KEY',
+      indexName: 'physical-ai',
     },
   } satisfies Preset.ThemeConfig,
 };
