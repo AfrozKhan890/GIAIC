@@ -1,60 +1,16 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
-export default function Home(){
+export default function Home() {
   const { siteConfig } = useDocusaurusContext();
-
-  // Neural network background effect
-  useEffect(() => {
-    const createNeuralNetwork = () => {
-      const container = document.querySelector('.neural-connections');
-      if (!container) return;
-
-      // Clear existing
-      container.innerHTML = '';
-
-      // Create nodes
-      for (let i = 0; i < 20; i++) {
-        const node = document.createElement('div');
-        node.className = 'neural-node';
-        node.style.left = `${Math.random() * 100}%`;
-        node.style.top = `${Math.random() * 100}%`;
-        node.style.animationDelay = `${Math.random() * 2}s`;
-        container.appendChild(node);
-      }
-
-      // Create connections
-      for (let i = 0; i < 15; i++) {
-        const connection = document.createElement('div');
-        connection.className = 'neural-connection';
-        connection.style.left = `${Math.random() * 100}%`;
-        connection.style.top = `${Math.random() * 100}%`;
-        connection.style.width = `${50 + Math.random() * 150}px`;
-        connection.style.transform = `rotate(${Math.random() * 360}deg)`;
-        connection.style.animationDelay = `${Math.random() * 3}s`;
-        container.appendChild(connection);
-      }
-    };
-
-    createNeuralNetwork();
-    const interval = setInterval(createNeuralNetwork, 5000);
-
-    return () => clearInterval(interval);
-  }, []);
 
   return (
     <Layout
       title={`${siteConfig.title} - Neural AI Textbook`}
       description="Advanced Physical AI & Humanoid Robotics textbook with neural network theme">
       
-      {/* Neural Network Background */}
-      <div className="neural-bg">
-        <div className="neural-grid"></div>
-        <div className="neural-connections"></div>
-      </div>
-
       {/* Hero Section */}
       <div className="hero">
         <div className="container">
@@ -65,65 +21,32 @@ export default function Home(){
             {siteConfig.tagline}
           </p>
           
-          <div style={{ 
-            display: 'flex', 
-            gap: '1rem', 
-            justifyContent: 'center',
-            flexWrap: 'wrap',
-            marginBottom: '3rem'
-          }}>
+          <div className="hero-buttons">
             <Link
               className="button button--primary button--lg"
-              to="/intro"
-              style={{
-                background: 'linear-gradient(135deg, var(--neural-primary), var(--neural-secondary))',
-                border: 'none',
-                borderRadius: '12px',
-                padding: '1rem 2rem',
-                fontWeight: '600'
-              }}>
+              to="/intro">
               🚀 Start Learning
             </Link>
             <Link
               className="button button--outline button--lg"
-              to="/projects"
-              style={{
-                borderColor: 'var(--neural-primary)',
-                color: 'var(--neural-primary)',
-                borderRadius: '12px',
-                padding: '1rem 2rem',
-                fontWeight: '600'
-              }}>
+              to="/projects">
               ⚡ View Projects
             </Link>
           </div>
 
           {/* Stats */}
-          <div style={{
-            display: 'flex',
-            justifyContent: 'center',
-            gap: '3rem',
-            flexWrap: 'wrap',
-            marginTop: '2rem'
-          }}>
+          <div className="stats-grid">
             {[
               { number: '10', label: 'Chapters' },
               { number: '50+', label: 'Code Examples' },
               { number: '100+', label: 'Exercises' },
               { number: '∞', label: 'Possibilities' }
             ].map((stat, idx) => (
-              <div key={idx} style={{ textAlign: 'center' }}>
-                <div style={{
-                  fontSize: '2.5rem',
-                  fontWeight: '800',
-                  background: 'linear-gradient(135deg, var(--neural-primary), var(--neural-accent))',
-                  WebkitBackgroundClip: 'text',
-                  WebkitTextFillColor: 'transparent',
-                  marginBottom: '0.5rem'
-                }}>
+              <div key={idx} className="stat-item">
+                <div className="stat-number">
                   {stat.number}
                 </div>
-                <div style={{ color: 'var(--neural-text)', opacity: '0.8' }}>
+                <div className="stat-label">
                   {stat.label}
                 </div>
               </div>
@@ -133,18 +56,11 @@ export default function Home(){
       </div>
 
       {/* Main Content */}
-      <main className="container" style={{ padding: '4rem 0', position: 'relative', zIndex: 1 }}>
+      <main className="container main-content">
         
         {/* Featured Chapters */}
-        <section style={{ marginBottom: '4rem' }}>
-          <h2 style={{ 
-            textAlign: 'center', 
-            marginBottom: '3rem',
-            fontSize: '2.5rem',
-            background: 'linear-gradient(135deg, var(--neural-primary), var(--neural-accent))',
-            WebkitBackgroundClip: 'text',
-            WebkitTextFillColor: 'transparent'
-          }}>
+        <section className="featured-chapters">
+          <h2 className="section-title">
             Featured Chapters
           </h2>
           
@@ -175,12 +91,12 @@ export default function Home(){
                 link: '/chapter10'
               }
             ].map((chapter, idx) => (
-              <div key={idx} className="col col--3">
-                <Link to={chapter.link} style={{ textDecoration: 'none' }}>
-                  <div className="chapter-card" style={{ height: '100%' }}>
+              <div key={idx} className="col col--12 col--6 col--lg-3">
+                <Link to={chapter.link} className="chapter-link">
+                  <div className="chapter-card">
                     <div className="chapter-number">{chapter.number}</div>
-                    <h3 style={{ margin: '1rem 0' }}>{chapter.title}</h3>
-                    <p style={{ color: 'var(--ifm-color-emphasis-700)' }}>
+                    <h3 className="chapter-title">{chapter.title}</h3>
+                    <p className="chapter-description">
                       {chapter.description}
                     </p>
                   </div>
@@ -191,7 +107,7 @@ export default function Home(){
         </section>
 
         {/* Quick Start Guide */}
-        <section className="neural-exercise" style={{ margin: '4rem 0' }}>
+        <section className="neural-exercise quick-start">
           <h3>⚡ Quick Start Guide</h3>
           <p>Begin your Physical AI journey in 4 steps:</p>
           <ol>
@@ -206,57 +122,31 @@ export default function Home(){
         </section>
 
         {/* Interactive Demo Preview */}
-        <section style={{ marginBottom: '4rem' }}>
-          <h2 style={{ textAlign: 'center', marginBottom: '2rem' }}>🧪 Interactive Learning</h2>
+        <section className="interactive-demo">
+          <h2 className="section-title">🧪 Interactive Learning</h2>
           <div className="neural-diagram">
-            <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
+            <div className="demo-header">
               <h3>Live Neural Network Simulator</h3>
               <p>Visualize how neural networks control robotic movements</p>
             </div>
             
-            <div style={{ 
-              display: 'flex', 
-              justifyContent: 'center',
-              alignItems: 'center',
-              gap: '2rem',
-              flexWrap: 'wrap'
-            }}>
-              <div style={{ 
-                width: '200px', 
-                height: '200px',
-                background: 'rgba(99, 102, 241, 0.1)',
-                border: '2px solid var(--neural-primary)',
-                borderRadius: '50%',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                fontSize: '2rem'
-              }}>
+            <div className="demo-visualization">
+              <div className="demo-node robot-node">
                 🤖
               </div>
               
-              <div style={{ textAlign: 'center' }}>
-                <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>➡️</div>
-                <div style={{ color: 'var(--neural-accent)' }}>Neural Processing</div>
+              <div className="demo-arrow">
+                <div className="arrow-icon">➡️</div>
+                <div className="arrow-label">Neural Processing</div>
               </div>
               
-              <div style={{ 
-                width: '200px', 
-                height: '200px',
-                background: 'rgba(139, 92, 246, 0.1)',
-                border: '2px solid var(--neural-secondary)',
-                borderRadius: '50%',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                fontSize: '2rem'
-              }}>
+              <div className="demo-node brain-node">
                 🧠
               </div>
             </div>
             
-            <div style={{ textAlign: 'center', marginTop: '2rem' }}>
-              <Link to="/projects#simulator" className="button button--secondary">
+            <div className="demo-action">
+              <Link to="/projects" className="button button--secondary">
                 Launch Simulator →
               </Link>
             </div>
@@ -264,67 +154,31 @@ export default function Home(){
         </section>
 
         {/* Hackathon Notice */}
-        <section style={{
-          background: 'linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(6, 182, 212, 0.1))',
-          padding: '2rem',
-          borderRadius: '16px',
-          textAlign: 'center',
-          border: '1px solid var(--neural-primary)'
-        }}>
-          <h2 style={{ color: 'var(--neural-primary)' }}>🚀 Panaversity Hackathon 2025</h2>
-          <p>This textbook is created as part of the Panaversity Hackathon. Features include:</p>
-          <div style={{ 
-            display: 'flex', 
-            justifyContent: 'center', 
-            gap: '2rem',
-            flexWrap: 'wrap',
-            margin: '2rem 0'
-          }}>
+        <section className="hackathon-notice">
+          <h2>🚀 Panaversity Hackathon 2025</h2>
+          <p>This textbook is created as part of the Panaversity Hackathon.</p>
+          <div className="hackathon-features">
             <div>🤖 RAG Chatbot</div>
             <div>🔐 User Authentication</div>
             <div>🎯 Personalized Content</div>
             <div>🌐 Urdu Translation</div>
             <div>🧠 Neural Network Theme</div>
           </div>
-          <Link 
-            to="https://forms.gle/CQsSEGM3GeCrL43c8" 
-            className="button button--primary"
-            style={{ marginRight: '1rem' }}>
-            Submit Your Project
-          </Link>
-          <Link 
-            to="https://us06web.zoom.us/j/84976847088" 
-            className="button button--outline">
-            Join Live Presentation
-          </Link>
+          <div className="hackathon-buttons">
+            <Link 
+              to="https://forms.gle/CQsSEGM3GeCrL43c8" 
+              className="button button--primary">
+              Submit Your Project
+            </Link>
+            <Link 
+              to="https://us06web.zoom.us/j/84976847088" 
+              className="button button--outline">
+              Join Live Presentation
+            </Link>
+          </div>
         </section>
 
       </main>
-
-      {/* Scroll to Top Button */}
-      <button 
-        className="scroll-top-btn"
-        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-        aria-label="Scroll to top">
-        ↑
-      </button>
-
-      {/* Reading Progress Bar */}
-      <div className="reading-progress">
-        <div className="progress-bar" id="progressBar"></div>
-      </div>
-
-      {/* Progress Bar Script */}
-      <script dangerouslySetInnerHTML={{
-        __html: `
-          window.addEventListener('scroll', () => {
-            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            const scrolled = (winScroll / height) * 100;
-            document.getElementById('progressBar').style.width = scrolled + '%';
-          });
-        `
-      }} />
     </Layout>
   );
 }

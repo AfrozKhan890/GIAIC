@@ -4,11 +4,13 @@
 
 Theory becomes mastery through practice. This section provides practical projects that apply concepts from each chapter, building from simple exercises to complex capstone implementations. Each project includes clear objectives, implementation guidance, and evaluation criteria to help you develop practical Physical AI skills.
 
+---
+
 ## Beginner Projects
 
 ### Project 1: Neural Pendulum Balance
 
-**Objective**: Implement a neural network controller to balance an inverted pendulum.
+**Objective:** Implement a neural network controller to balance an inverted pendulum.
 
 **Concepts Covered:**
 - Neural network architecture design
@@ -29,14 +31,11 @@ Theory becomes mastery through practice. This section provides practical project
 - Neural network has < 10,000 parameters
 - Training completes in < 1 hour on CPU
 
-**Resources:**
-- [Starter Code](https://github.com/AfrozKhan890/physical-ai-book/tree/main/projects/pendulum)
-- [Solution Video](https://youtube.com/playlist?list=pendulum-project)
-- [Discussion Forum](https://github.com/AfrozKhan890/physical-ai-book/discussions)
+---
 
 ### Project 2: Mobile Robot Navigation
 
-**Objective**: Program a simulated robot to navigate through a maze using sensor data.
+**Objective:** Program a simulated robot to navigate through a maze using sensor data.
 
 **Concepts Covered:**
 - Sensor data processing (LiDAR, cameras)
@@ -57,11 +56,13 @@ Theory becomes mastery through practice. This section provides practical project
 - Smooth, efficient path
 - Code follows ROS 2 best practices
 
+---
+
 ## Intermediate Projects
 
 ### Project 3: Object Manipulation with Vision
 
-**Objective**: Create a vision-based system that detects and manipulates objects.
+**Objective:** Create a vision-based system that detects and manipulates objects.
 
 **Concepts Covered:**
 - Computer vision with OpenCV
@@ -82,9 +83,11 @@ Theory becomes mastery through practice. This section provides practical project
 - Pose estimation error < 2cm
 - Complete pipeline runs at 10Hz
 
+---
+
 ### Project 4: Humanoid Walking Controller
 
-**Objective**: Develop a neural network controller for bipedal locomotion.
+**Objective:** Develop a neural network controller for bipedal locomotion.
 
 **Concepts Covered:**
 - Dynamic walking principles
@@ -105,11 +108,13 @@ Theory becomes mastery through practice. This section provides practical project
 - Adapts to slope changes (up to 10 degrees)
 - Energy-efficient gait pattern
 
+---
+
 ## Advanced Projects
 
 ### Project 5: Multi-Robot Coordination System
 
-**Objective**: Coordinate a team of robots to complete complex tasks collaboratively.
+**Objective:** Coordinate a team of robots to complete complex tasks collaboratively.
 
 **Concepts Covered:**
 - Multi-agent systems
@@ -130,9 +135,11 @@ Theory becomes mastery through practice. This section provides practical project
 - Graceful degradation if robots fail
 - Scalable to 10+ robots
 
+---
+
 ### Project 6: Vision-Language-Action Integration
 
-**Objective**: Build a system that follows natural language instructions to manipulate objects.
+**Objective:** Build a system that follows natural language instructions to manipulate objects.
 
 **Concepts Covered:**
 - Multi-modal transformer architectures
@@ -141,7 +148,7 @@ Theory becomes mastery through practice. This section provides practical project
 - Interactive learning from human feedback
 
 **Implementation Steps:**
-1. Fine-tune CLIP model for robotic vision-language alignment
+1. Fine-tune vision-language model for robotic alignment
 2. Implement hierarchical task planner
 3. Develop clarification dialogue system
 4. Create human-in-the-loop learning interface
@@ -153,23 +160,25 @@ Theory becomes mastery through practice. This section provides practical project
 - Learns from 3 correction examples
 - Explains reasoning for chosen actions
 
+---
+
 ## Capstone Project: Autonomous Humanoid Assistant
 
-### Project Overview
+**Project Overview:**  
 Create a complete humanoid robot system that can receive voice commands, navigate environments, identify objects, and perform manipulation tasks—integrating concepts from all chapters.
 
 **Major Components:**
-1. **Perception Pipeline**: Multi-modal sensing and scene understanding
-2. **Navigation System**: Dynamic path planning and obstacle avoidance
-3. **Manipulation Controller**: Dexterous object manipulation
-4. **Human Interaction**: Natural language understanding and social cues
-5. **Task Planning**: Hierarchical goal decomposition and execution
+1. **Perception Pipeline:** Multi-modal sensing and scene understanding
+2. **Navigation System:** Dynamic path planning and obstacle avoidance
+3. **Manipulation Controller:** Dexterous object manipulation
+4. **Human Interaction:** Natural language understanding and social cues
+5. **Task Planning:** Hierarchical goal decomposition and execution
 
 **Milestones:**
-- **Month 1**: Basic locomotion and environment perception
-- **Month 2**: Object manipulation and simple task execution
-- **Month 3**: Natural language interface and complex task planning
-- **Month 4**: Integration, testing, and performance optimization
+- Month 1: Basic locomotion and environment perception
+- Month 2: Object manipulation and simple task execution
+- Month 3: Natural language interface and complex task planning
+- Month 4: Integration, testing, and performance optimization
 
 **Evaluation Metrics:**
 - Task completion rate in novel environments
@@ -177,147 +186,101 @@ Create a complete humanoid robot system that can receive voice commands, navigat
 - Safety record (zero dangerous incidents)
 - Learning efficiency (improvement over time)
 
+---
+
 ## Project Submission Guidelines
 
 ### Code Requirements
-- **Repository Structure**: Well-organized with clear documentation
-- **Code Quality**: Follows PEP8/Python best practices
-- **Testing**: Unit tests for critical functions
-- **Documentation**: README with setup instructions and usage examples
+- Repository structure: well-organized with clear documentation
+- Code quality: follows PEP8/Python best practices
+- Testing: unit tests for critical functions
+- Documentation: README with setup instructions and usage examples
 
 ### Video Demonstration
-- **3-5 minute overview** of project functionality
-- **Clear demonstration** of key features
-- **Explanation** of technical approach
-- **Discussion** of challenges and solutions
+- 3–5 minute overview of project functionality
+- Clear demonstration of key features
+- Explanation of technical approach
+- Discussion of challenges and solutions
 
 ### Written Report
-- **Problem statement** and objectives
-- **Technical approach** and architecture
-- **Results** with quantitative metrics
-- **Discussion** of limitations and future work
-- **References** to relevant literature
+- Problem statement and objectives
+- Technical approach and architecture
+- Results with quantitative metrics
+- Discussion of limitations and future work
+- References to relevant literature
 
-## Community Projects Showcase
-
-### Featured Student Projects
-
-**Autonomous Gardening Robot**
-*By: Robotics Club, University of Tech*
-- Computer vision for plant health monitoring
-- Precision watering and nutrient delivery
-- Solar-powered operation
-- [GitHub Repository](https://github.com/example/garden-bot)
-
-**Sign Language Translation System**
-*By: AI for Accessibility Team*
-- Real-time sign language recognition
-- Robotic hand reproduction of signs
-- Multi-user interaction capability
-- [Project Page](https://example.com/sign-translate)
-
-**Disaster Response Drone Swarm**
-*By: Emergency Robotics Research Group*
-- Collaborative search and mapping
-- Victim detection and assessment
-- Communication relay deployment
-- [Research Paper](https://arxiv.org/example)
-
-### How to Submit Your Project
-1. Fork the textbook repository
-2. Add your project to the `community-projects` directory
-3. Create a pull request with:
-   - Project description
-   - Code and documentation
-   - Demonstration video link
-   - Results and evaluation
-
-4. Projects will be reviewed and featured based on:
-   - Technical innovation
-   - Educational value
-   - Code quality
-   - Documentation completeness
+---
 
 ## Learning Pathways Through Projects
 
 ### Career-Focused Tracks
 
-**Research Track:**
-1. Pendulum Balance → Humanoid Walking → VLA Integration
-2. Focus: Algorithm development and novel contributions
-3. Outcome: Research paper or conference submission
+**Research Track:**  
+Pendulum Balance → Humanoid Walking → Vision-Language-Action Integration  
+Focus: Algorithm development and novel contributions  
+Outcome: Research paper or conference submission
 
-**Industry Track:**
-1. Mobile Navigation → Object Manipulation → Multi-Robot System
-2. Focus: Robust implementation and system integration
-3. Outcome: Portfolio of deployable systems
+**Industry Track:**  
+Mobile Navigation → Object Manipulation → Multi-Robot System  
+Focus: Robust implementation and system integration  
+Outcome: Portfolio of deployable systems
 
-**Education Track:**
-1. All beginner projects → Create teaching materials
-2. Focus: Explanation clarity and pedagogical design
-3. Outcome: Lesson plans and educational resources
+**Education Track:**  
+All beginner projects → Create teaching materials  
+Focus: Explanation clarity and pedagogical design  
+Outcome: Lesson plans and educational resources
+
+---
 
 ### Time Commitment Estimates
-- **Beginner Projects**: 10-20 hours each
-- **Intermediate Projects**: 30-50 hours each
-- **Advanced Projects**: 60-100 hours each
-- **Capstone Project**: 150-200 hours
+- Beginner Projects: 10–20 hours each
+- Intermediate Projects: 30–50 hours each
+- Advanced Projects: 60–100 hours each
+- Capstone Project: 150–200 hours
+
+---
 
 ## Resources and Support
 
 ### Starter Kits and Templates
-- **Project templates** with pre-configured environments
-- **Docker containers** for reproducible setups
-- **Cloud credits** for students (apply through form)
-- **Hardware loans** for selected projects
+- Project templates with pre-configured environments
+- Docker containers for reproducible setups
+- Cloud credits for students (apply through form)
+- Hardware loans for selected projects
 
 ### Mentorship Program
-- **Weekly office hours** with project TAs
-- **Code review sessions** for project feedback
-- **Peer matching** for collaborative projects
-- **Industry mentor connections** for capstone projects
+- Weekly office hours with project TAs
+- Code review sessions for project feedback
+- Peer matching for collaborative projects
+- Industry mentor connections for capstone projects
 
 ### Competition Opportunities
-- **Monthly challenge** with prize for best implementation
-- **Hackathon events** focusing on specific problems
-- **Research competitions** with publication opportunities
-- **Industry-sponsored challenges** with internship offers
+- Monthly challenge with prize for best implementation
+- Hackathon events focusing on specific problems
+- Research competitions with publication opportunities
+- Industry-sponsored challenges with internship offers
+
+---
 
 ## Assessment and Certification
 
 ### Project Evaluation Rubric
-**Technical Implementation (40%):**
-- Code quality and organization
-- Algorithm correctness and efficiency
-- System integration and robustness
-
-**Documentation (30%):**
-- Clarity of explanation
-- Completeness of instructions
-- Quality of visual materials
-
-**Innovation (20%):**
-- Novelty of approach
-- Creative problem solving
-- Extension beyond basic requirements
-
-**Presentation (10%):**
-- Video demonstration quality
-- Written report clarity
-- Result communication effectiveness
+- **Technical Implementation (40%)**: code quality, algorithm correctness, system integration  
+- **Documentation (30%)**: clarity, completeness, visuals  
+- **Innovation (20%)**: novelty, creative problem solving  
+- **Presentation (10%)**: video quality, report clarity, communication
 
 ### Certification Levels
-- **Beginner Certificate**: Complete 3 beginner projects
-- **Intermediate Certificate**: Complete 2 intermediate projects
-- **Advanced Certificate**: Complete 1 advanced project
-- **Capstone Certificate**: Complete capstone project with distinction
+- Beginner: Complete 3 beginner projects  
+- Intermediate: Complete 2 intermediate projects  
+- Advanced: Complete 1 advanced project  
+- Capstone: Complete capstone project with distinction
 
 ### Portfolio Development
-Each project contributes to a professional portfolio:
-- **GitHub profile** with complete project repositories
-- **Technical blog** documenting learning journey
-- **Video demos** showcasing working systems
-- **Peer reviews** and collaboration evidence
+- GitHub profile with complete repositories
+- Technical blog documenting learning journey
+- Video demos showcasing working systems
+- Peer reviews and collaboration evidence
 
 ---
 
