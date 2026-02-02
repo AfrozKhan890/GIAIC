@@ -111,13 +111,13 @@ This textbook uses a neuro-symbolic approach:
 
 
 ### Getting Help
-GitHub Issues: Report problems
 
-Community Discord: Live help
+This project is currently maintained as an open-source educational resource.
 
-Office Hours: Weekly Q&A
-
-Peer Review: Code review system
+For any problems or questions:
+- Use **GitHub Issues**
+- Review documentation
+- Explore source code
 
 ### Let's Begin
 You're about to embark on a journey from digital intelligence to physical embodiment. Each chapter builds upon the last, creating a deep understanding of how neural networks can control physical systems.
