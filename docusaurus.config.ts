@@ -47,7 +47,7 @@ const config: Config = {
       title: '🧠 Physical AI',
       logo: {
         alt: 'Neural Robotics Logo',
-        src: 'img/neural-logo.svg',
+        src: 'img/logo.jpg',
       },
       items: [
         {
