@@ -206,4 +206,4 @@ We welcome partnerships with:
 
 **Thank you for being part of this educational journey. Together, we're building the future of Physical AI education.**
 
-[← Back to Home](../)
+[← Back to Home](/)

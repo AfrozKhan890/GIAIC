@@ -134,4 +134,4 @@ For any problems or questions:
 
 **Remember:** Learning Physical AI is a long-term journey. Focus on understanding, not speed.
 
-[← Back to Home](../) | [Get Started with Chapter 1](./chapter1)
+[← Back to Home](/) | [Get Started with Chapter 1](./chapter1)

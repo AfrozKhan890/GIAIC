@@ -315,4 +315,4 @@ We welcome contributions from the community:
 
 **Stay curious, keep learning, and join the conversation as we explore the frontier of Physical AI together.**
 
-[← Back to Home](../) | [Subscribe to Newsletter](#newsletter-subscription)
+[← Back to Home](/) | [Subscribe to Newsletter](#newsletter-subscription)
