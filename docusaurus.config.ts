@@ -7,7 +7,7 @@ const config: Config = {
   tagline: 'From Neural Networks to Physical Intelligence',
   favicon: 'img/brain-chip.svg',
 
-  url: 'https://vercel.com/afroz-khans-projects-7380d634/physical-ai-book',
+  url: 'https://physical-ai-book-9kdczi7tq-afroz-khans-projects-7380d634.vercel.app/',
   baseUrl: '/',
 
   organizationName: 'Afrozkhan890',
