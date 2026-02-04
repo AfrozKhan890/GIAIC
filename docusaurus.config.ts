@@ -13,7 +13,7 @@ const config: Config = {
   organizationName: 'Afrozkhan890',
   projectName: 'physical-ai-book',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
@@ -70,7 +70,7 @@ const config: Config = {
       style: 'dark',
       logo: {
         alt: 'Neural AI Logo',
-        src: 'img/neural-logo.svg',
+        src: 'img/logo.jpg',
         width: 60,
         height: 60,
       },

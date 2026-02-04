@@ -414,4 +414,4 @@ The story of Physical AI is still being written. What chapter will you contribut
 
 **End of Textbook**
 
-[← Back to Chapter 9](./chapter9) | [Return to Home](../)
+[← Back to Chapter 9](./chapter9)

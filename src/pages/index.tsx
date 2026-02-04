@@ -11,6 +11,9 @@ export default function Home() {
       title={`${siteConfig.title} - Neural AI Textbook`}
       description="Advanced Physical AI & Humanoid Robotics textbook with neural network theme">
       
+      {/* Neural Background */}
+      <div className="neural-bg"></div>
+
       {/* Hero Section */}
       <div className="hero">
         <div className="container">
@@ -58,13 +61,13 @@ export default function Home() {
       {/* Main Content */}
       <main className="container main-content">
         
-        {/* Featured Chapters */}
+        {/* Featured Chapters - All 4 in one line */}
         <section className="featured-chapters">
           <h2 className="section-title">
             Featured Chapters
           </h2>
           
-          <div className="row">
+          <div className="featured-chapters-grid">
             {[
               {
                 number: '01',
@@ -91,17 +94,15 @@ export default function Home() {
                 link: '/chapter10'
               }
             ].map((chapter, idx) => (
-              <div key={idx} className="col col--12 col--6 col--lg-3">
-                <Link to={chapter.link} className="chapter-link">
-                  <div className="chapter-card">
-                    <div className="chapter-number">{chapter.number}</div>
-                    <h3 className="chapter-title">{chapter.title}</h3>
-                    <p className="chapter-description">
-                      {chapter.description}
-                    </p>
-                  </div>
-                </Link>
-              </div>
+              <Link key={idx} to={chapter.link} className="chapter-link">
+                <div className="chapter-card">
+                  <div className="chapter-number">{chapter.number}</div>
+                  <h3 className="chapter-title">{chapter.title}</h3>
+                  <p className="chapter-description">
+                    {chapter.description}
+                  </p>
+                </div>
+              </Link>
             ))}
           </div>
         </section>
@@ -150,31 +151,6 @@ export default function Home() {
                 Launch Simulator →
               </Link>
             </div>
-          </div>
-        </section>
-
-        {/* Hackathon Notice */}
-        <section className="hackathon-notice">
-          <h2>🚀 Panaversity Hackathon 2025</h2>
-          <p>This textbook is created as part of the Panaversity Hackathon.</p>
-          <div className="hackathon-features">
-            <div>🤖 RAG Chatbot</div>
-            <div>🔐 User Authentication</div>
-            <div>🎯 Personalized Content</div>
-            <div>🌐 Urdu Translation</div>
-            <div>🧠 Neural Network Theme</div>
-          </div>
-          <div className="hackathon-buttons">
-            <Link 
-              to="https://forms.gle/CQsSEGM3GeCrL43c8" 
-              className="button button--primary">
-              Submit Your Project
-            </Link>
-            <Link 
-              to="https://us06web.zoom.us/j/84976847088" 
-              className="button button--outline">
-              Join Live Presentation
-            </Link>
           </div>
         </section>
 

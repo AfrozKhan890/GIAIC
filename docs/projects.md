@@ -1,4 +1,4 @@
-# Projects & Labs
+# ⚡ Projects & Labs
 
 ## Hands-On Learning Journey
 
@@ -286,4 +286,4 @@ Outcome: Lesson plans and educational resources
 
 **Ready to start building? Choose a project that matches your current skill level and interests. Remember: the journey of mastery begins with a single implementation.**
 
-[← Back to Home](/) | [View Beginner Projects](#beginner-projects)
+[View Beginner Projects](#beginner-projects)
