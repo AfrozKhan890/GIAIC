@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Physical AI & Humanoid Robotics',
   tagline: 'From Neural Networks to Physical Intelligence',
-  favicon: 'img/brain-chip.svg',
+  favicon: 'img/favicon.ico',
 
   // url: 'https://afrozkhan890.github.io',
   url: 'https://physical-ai-book.vercel.app',
