@@ -1,0 +1,311 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light Theme Variables */
+    --background: 210 40% 98%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 175 84% 45%; /* Electric Cyan */
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 175 84% 45%;
+    --radius: 0.75rem;
+    --alert: 20 85% 85%; /* Soft Peach */
+    --alert-foreground: 20 60% 30%;
+  }
+
+  .dark {
+    /* Dark Theme Variables */
+    --background: 222 47% 11%; /* Dark Navy */
+    --foreground: 210 40% 98%;
+    --card: 222 47% 14%; /* Slightly lighter navy */
+    --card-foreground: 210 40% 98%;
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 175 84% 45%; /* Electric Cyan */
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 175 84% 45%;
+    --alert: 20 85% 85%; /* Soft Peach */
+    --alert-foreground: 20 60% 30%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground transition-colors duration-300;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    overflow-x: hidden;
+  }
+
+  /* Scrollbar Styling */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-muted/50;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary/30 rounded-full transition-colors hover:bg-primary/50;
+  }
+
+  /* Fix for modal scrollbars */
+  .modal-scroll::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .modal-scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .modal-scroll::-webkit-scrollbar-thumb {
+    background: hsl(var(--primary) / 0.3);
+    border-radius: 3px;
+  }
+
+  .modal-scroll::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--primary) / 0.5);
+  }
+}
+
+@layer components {
+  /* Glass Effect */
+  .glass {
+    @apply backdrop-blur-xl bg-white/5 dark:bg-black/5 border border-white/10 dark:border-white/5 shadow-xl;
+  }
+
+  .glass-card {
+    @apply backdrop-blur-lg bg-white/10 dark:bg-black/10 border border-white/20 dark:border-white/10 shadow-2xl;
+  }
+
+  /* Gradient Text */
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[#00F5D4] to-[#6BFFB8];
+  }
+
+  /* Button Glow */
+  .glow-effect {
+    @apply relative;
+  }
+
+  .glow-effect::after {
+    content: '';
+    @apply absolute inset-0 rounded-[inherit] opacity-0 blur-xl transition-opacity duration-300;
+    background: linear-gradient(90deg, #00F5D4, #6BFFB8);
+  }
+
+  .glow-effect:hover::after {
+    @apply opacity-20;
+  }
+
+  /* Alert Styling */
+  .alert-peach {
+    @apply bg-[#FFE5D9] dark:bg-[#33211a] text-[#8B4513] dark:text-[#FFD7C2] border-[#FFD7C2] dark:border-[#664433];
+  }
+
+  /* Skeleton Loader */
+  .skeleton {
+    @apply animate-pulse bg-gradient-to-r from-transparent via-muted/20 to-transparent bg-[length:200%_100%];
+  }
+}
+
+@layer utilities {
+  /* Animations */
+  .animate-in {
+    animation: animate-in 0.3s ease-out;
+  }
+
+  .animate-out {
+    animation: animate-out 0.3s ease-out;
+  }
+
+  .animate-scale {
+    animation: animate-scale 0.2s ease-out;
+  }
+
+  .animate-rotate {
+    animation: animate-rotate 0.6s linear infinite;
+  }
+
+  .animate-shimmer {
+    animation: shimmer 2s linear infinite;
+  }
+
+  /* Ensure form elements are visible */
+  .react-datepicker-wrapper {
+    width: 100% !important;
+  }
+
+  .react-datepicker__input-container {
+    width: 100% !important;
+  }
+
+  /* Prevent form from being cut off */
+  .task-form-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+
+  .task-form-content {
+    flex: 1;
+    overflow-y: auto;
+  }
+}
+
+@keyframes animate-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes animate-out {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes animate-scale {
+  from {
+    transform: scale(0.95);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes animate-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* React DatePicker Dark Mode */
+.react-datepicker {
+  @apply bg-card border-border !important;
+  font-family: inherit !important;
+}
+
+.react-datepicker__header {
+  @apply bg-muted border-border !important;
+}
+
+.react-datepicker__current-month,
+.react-datepicker__day-name {
+  @apply text-foreground !important;
+}
+
+.react-datepicker__day {
+  @apply text-foreground hover:bg-primary/20 !important;
+}
+
+.react-datepicker__day--selected {
+  @apply bg-primary text-primary-foreground !important;
+}
+
+.react-datepicker__day--today {
+  @apply font-bold text-primary !important;
+}
+
+.react-datepicker__navigation {
+  @apply top-3 !important;
+}
+
+/* Modal and Form fixes */
+.modal-content {
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-buttons-sticky {
+  position: sticky;
+  bottom: 0;
+  background: hsl(var(--card));
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  margin-top: auto;
+  border-top: 1px solid hsl(var(--border) / 0.5);
+}
+
+/* Fix for overflowing content */
+.overflow-visible-important {
+  overflow: visible !important;
+}
+
+/* Ensure buttons are always visible */
+button, 
+input[type="submit"], 
+input[type="button"] {
+  min-height: 40px;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Fix for form in modal */
+.fixed-modal-form {
+  max-height: calc(85vh - 80px);
+  overflow-y: auto;
+}
+
+/* Ensure form footer is always visible */
+.form-footer-fixed {
+  position: sticky;
+  bottom: 0;
+  background: inherit;
+  z-index: 10;
+}
