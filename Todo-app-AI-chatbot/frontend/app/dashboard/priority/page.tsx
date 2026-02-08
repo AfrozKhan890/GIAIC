@@ -24,8 +24,8 @@ export default function PriorityTasksPage() {
   const router = useRouter();
   const [tasks, setTasks] = useState<Task[]>([]);
   const [loading, setLoading] = useState(true);
-  const [activePriority, setActivePriority] = useState<'high' | 'medium' | 'low'>('high');
-  
+  const [activePriority, setActivePriority] = useState<'all' | 'high' | 'medium' | 'low'>('high');
+
   const [priorityStats, setPriorityStats] = useState({
     high: { total: 0, completed: 0, overdue: 0 },
     medium: { total: 0, completed: 0, overdue: 0 },
@@ -80,7 +80,8 @@ export default function PriorityTasksPage() {
   // Add this function to filter tasks by priority
   const getFilteredTasks = () => {
     if (activePriority === 'all') return tasks;
-    return tasks.filter(task => task.priority === activePriority);
+    // return tasks.filter(task => task.priority === activePriority);
+    return tasks.filter(task => task.priority && task.priority === activePriority);
   };
 
   const handleTaskUpdate = (updatedTask: Task) => {
