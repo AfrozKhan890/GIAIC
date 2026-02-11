@@ -22,8 +22,8 @@ export default function DashboardLayout({
       </div>
 
       {/* Mobile Header */}
-      <div className="lg:hidden fixed top-0 left-0 right-0 z-50">
-        <header className="h-16 bg-card/80 backdrop-blur-xl border-b border-border/50 flex items-center justify-between px-4">
+      <div className="lg:hidden fixed top-0 left-0 right-0 z-50 bg-card/80 backdrop-blur-xl border-b border-border/50">
+        <header className="h-16 flex items-center justify-between px-4 responsive-container">
           <Link href="/" className="flex items-center gap-2">
             <div className="p-1.5 rounded-lg bg-gradient-ai text-gray-900 shadow-lg">
               <CheckCircleIcon className="w-5 h-5" />
@@ -34,7 +34,7 @@ export default function DashboardLayout({
             variant="ghost"
             size="icon"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="rounded-lg"
+            className="rounded-lg mobile-touch-area"
           >
             {isMobileMenuOpen ? <XMarkIcon className="w-6 h-6" /> : <Bars3Icon className="w-6 h-6" />}
           </Button>
@@ -68,11 +68,12 @@ export default function DashboardLayout({
       {/* Main Content */}
       <main className="flex-1 transition-all duration-300 w-full lg:ml-0">
         <div className="pt-16 lg:pt-0">
-          <div className="container mx-auto p-4 sm:p-6 lg:p-8 max-w-7xl">
+          <div className="responsive-container responsive-padding">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.3 }}
+              className="w-full"
             >
               {children}
             </motion.div>

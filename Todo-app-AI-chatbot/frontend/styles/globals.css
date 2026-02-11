@@ -11,7 +11,7 @@
     --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
-    --primary: 175 84% 45%; /* Electric Cyan */
+    --primary: 175 84% 45%;
     --primary-foreground: 210 40% 98%;
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
@@ -25,19 +25,19 @@
     --input: 214.3 31.8% 91.4%;
     --ring: 175 84% 45%;
     --radius: 0.75rem;
-    --alert: 20 85% 85%; /* Soft Peach */
+    --alert: 20 85% 85%;
     --alert-foreground: 20 60% 30%;
   }
 
   .dark {
     /* Dark Theme Variables */
-    --background: 222 47% 11%; /* Dark Navy */
+    --background: 222 47% 11%;
     --foreground: 210 40% 98%;
-    --card: 222 47% 14%; /* Slightly lighter navy */
+    --card: 222 47% 14%;
     --card-foreground: 210 40% 98%;
     --popover: 222 47% 11%;
     --popover-foreground: 210 40% 98%;
-    --primary: 175 84% 45%; /* Electric Cyan */
+    --primary: 175 84% 45%;
     --primary-foreground: 222.2 47.4% 11.2%;
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
@@ -50,7 +50,7 @@
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 175 84% 45%;
-    --alert: 20 85% 85%; /* Soft Peach */
+    --alert: 20 85% 85%;
     --alert-foreground: 20 60% 30%;
   }
 }
@@ -64,23 +64,45 @@
     @apply bg-background text-foreground transition-colors duration-300;
     font-feature-settings: "rlig" 1, "calt" 1;
     overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Responsive base styles */
+  @media (max-width: 640px) {
+    body {
+      font-size: 14px;
+    }
+  }
+
+  /* Chatbot icon fixed positioning */
+  .chatbot-fixed-icon {
+    position: fixed !important;
+    z-index: 10000 !important;
+    bottom: 1.5rem !important;
+    right: 1.5rem !important;
+  }
+
+  @media (max-width: 640px) {
+    .chatbot-fixed-icon {
+      bottom: 1rem !important;
+      right: 1rem !important;
+    }
   }
 
   /* Scrollbar Styling */
   ::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
   }
 
   ::-webkit-scrollbar-track {
-    @apply bg-muted/50;
+    @apply bg-muted/30;
   }
 
   ::-webkit-scrollbar-thumb {
-    @apply bg-primary/30 rounded-full transition-colors hover:bg-primary/50;
+    @apply bg-primary/40 rounded-full transition-colors hover:bg-primary/60;
   }
 
-  /* Fix for modal scrollbars */
   .modal-scroll::-webkit-scrollbar {
     width: 6px;
   }
@@ -114,6 +136,11 @@
     @apply bg-clip-text text-transparent bg-gradient-to-r from-[#00F5D4] to-[#6BFFB8];
   }
 
+  /* Gradient Background for AI */
+  .bg-gradient-ai {
+    @apply bg-gradient-to-r from-[#00F5D4] to-[#6BFFB8];
+  }
+
   /* Button Glow */
   .glow-effect {
     @apply relative;
@@ -137,6 +164,40 @@
   /* Skeleton Loader */
   .skeleton {
     @apply animate-pulse bg-gradient-to-r from-transparent via-muted/20 to-transparent bg-[length:200%_100%];
+  }
+
+  /* Responsive container */
+  .responsive-container {
+    @apply w-full px-4 mx-auto;
+    
+    @media (min-width: 640px) {
+      max-width: 640px;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+    
+    @media (min-width: 768px) {
+      max-width: 768px;
+    }
+    
+    @media (min-width: 1024px) {
+      max-width: 1024px;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+    
+    @media (min-width: 1280px) {
+      max-width: 1280px;
+    }
+  }
+
+  /* Responsive text */
+  .text-responsive {
+    @apply text-sm sm:text-base md:text-lg;
+  }
+
+  .heading-responsive {
+    @apply text-lg sm:text-xl md:text-2xl lg:text-3xl;
   }
 }
 
@@ -162,6 +223,42 @@
     animation: shimmer 2s linear infinite;
   }
 
+  .animate-pulse-glow {
+    animation: pulse-glow 2s infinite;
+  }
+
+  /* Chat Drawer utilities */
+  .chat-drawer-overlay {
+    z-index: 9998 !important;
+  }
+
+  .chat-drawer-panel {
+    z-index: 9999 !important;
+  }
+
+  /* Mobile optimizations */
+  .touch-manipulation {
+    touch-action: manipulation;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for chat */
+  .chat-no-scrollbar {
+    scrollbar-width: none;
+  }
+
+  .chat-no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
   /* Ensure form elements are visible */
   .react-datepicker-wrapper {
     width: 100% !important;
@@ -171,16 +268,9 @@
     width: 100% !important;
   }
 
-  /* Prevent form from being cut off */
-  .task-form-container {
-    display: flex;
-    flex-direction: column;
-    min-height: 0;
-  }
-
-  .task-form-content {
-    flex: 1;
-    overflow-y: auto;
+  /* Responsive modals */
+  .responsive-modal {
+    @apply w-full max-w-[95vw] sm:max-w-lg md:max-w-xl lg:max-w-2xl;
   }
 }
 
@@ -233,6 +323,17 @@
   }
 }
 
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(0, 245, 212, 0.3);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(0, 245, 212, 0.6);
+    transform: scale(1.05);
+  }
+}
+
 /* React DatePicker Dark Mode */
 .react-datepicker {
   @apply bg-card border-border !important;
@@ -281,31 +382,64 @@
   border-top: 1px solid hsl(var(--border) / 0.5);
 }
 
-/* Fix for overflowing content */
-.overflow-visible-important {
-  overflow: visible !important;
+/* Responsive grids */
+.responsive-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6;
 }
 
-/* Ensure buttons are always visible */
-button, 
-input[type="submit"], 
-input[type="button"] {
-  min-height: 40px;
-  display: inline-flex !important;
-  align-items: center !important;
-  justify-content: center !important;
+/* Responsive cards */
+.responsive-card-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6;
 }
 
-/* Fix for form in modal */
-.fixed-modal-form {
-  max-height: calc(85vh - 80px);
-  overflow-y: auto;
+/* Responsive padding */
+.responsive-padding {
+  @apply p-4 sm:p-6 md:p-8;
 }
 
-/* Ensure form footer is always visible */
-.form-footer-fixed {
-  position: sticky;
-  bottom: 0;
-  background: inherit;
-  z-index: 10;
+/* Responsive margins */
+.responsive-margin {
+  @apply m-4 sm:m-6 md:m-8;
+}
+
+/* Mobile touch improvements */
+@media (max-width: 768px) {
+  .mobile-touch-area {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  .mobile-text-sm {
+    font-size: 0.875rem;
+  }
+
+  .mobile-p-3 {
+    padding: 0.75rem;
+  }
+}
+
+/* Prevent zoom on mobile input */
+@media (max-width: 768px) {
+  input,
+  select,
+  textarea {
+    font-size: 16px !important;
+  }
+}
+
+/* Chat drawer responsive styles */
+@media (max-width: 640px) {
+  .chat-drawer-full {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    height: 100vh !important;
+    border-radius: 0 !important;
+    border: none !important;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+  .chat-drawer-tablet {
+    max-width: 75vw !important;
+  }
 }

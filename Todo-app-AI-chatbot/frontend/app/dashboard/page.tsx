@@ -163,8 +163,11 @@ export default function DashboardPage() {
 
   if (isAuthLoading) {
     return (
-      <div className="flex items-center justify-center min-h-screen">
-        <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin" />
+      <div className="flex items-center justify-center min-h-[60vh]">
+        <div className="text-center space-y-4">
+          <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin mx-auto" />
+          <p className="text-muted-foreground">Loading dashboard...</p>
+        </div>
       </div>
     );
   }
@@ -174,34 +177,34 @@ export default function DashboardPage() {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.3 }}
-      className="space-y-8"
+      className="space-y-6 sm:space-y-8"
     >
       {/* Header */}
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-        <div>
-          <h1 className="text-3xl font-bold gradient-text">Dashboard</h1>
-          <p className="text-muted-foreground mt-1">
+        <div className="w-full sm:w-auto">
+          <h1 className="text-2xl sm:text-3xl font-bold gradient-text">Dashboard</h1>
+          <p className="text-sm sm:text-base text-muted-foreground mt-1">
             Welcome back, {user?.name || 'User'}. Here's your productivity overview.
           </p>
         </div>
         <Button
           onClick={() => setShowCreateModal(true)}
-          className="glow-effect bg-gradient-ai text-gray-900 gap-2"
+          className="glow-effect bg-gradient-ai text-gray-900 gap-2 w-full sm:w-auto mobile-touch-area"
         >
           <PlusIcon className="h-5 w-5" />
           New Task
         </Button>
       </div>
 
-      {/* Stats Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      {/* Stats Cards - Responsive Grid */}
+      <div className="responsive-grid">
         <Card>
           <CardHeader className="flex flex-row items-center justify-between pb-2">
             <CardTitle className="text-sm font-medium">Total Tasks</CardTitle>
             <ChartBarIcon className="h-4 w-4 text-muted-foreground" />
           </CardHeader>
           <CardContent>
-            <div className="text-3xl font-bold">{stats.total}</div>
+            <div className="text-2xl sm:text-3xl font-bold">{stats.total}</div>
             <p className="text-xs text-muted-foreground">All tasks in your workspace</p>
           </CardContent>
         </Card>
@@ -212,7 +215,7 @@ export default function DashboardPage() {
             <ClockIcon className="h-4 w-4 text-muted-foreground" />
           </CardHeader>
           <CardContent>
-            <div className="text-3xl font-bold">{stats.active}</div>
+            <div className="text-2xl sm:text-3xl font-bold">{stats.active}</div>
             <p className="text-xs text-muted-foreground">Tasks in progress</p>
           </CardContent>
         </Card>
@@ -223,7 +226,7 @@ export default function DashboardPage() {
             <CheckCircleIcon className="h-4 w-4 text-muted-foreground" />
           </CardHeader>
           <CardContent>
-            <div className="text-3xl font-bold">{stats.completed}</div>
+            <div className="text-2xl sm:text-3xl font-bold">{stats.completed}</div>
             <p className="text-xs text-muted-foreground">Finished tasks</p>
           </CardContent>
         </Card>
@@ -234,7 +237,7 @@ export default function DashboardPage() {
             <ClockIcon className="h-4 w-4 text-destructive" />
           </CardHeader>
           <CardContent>
-            <div className={`text-3xl font-bold ${stats.overdue > 0 ? 'text-destructive' : ''}`}>
+            <div className={`text-2xl sm:text-3xl font-bold ${stats.overdue > 0 ? 'text-destructive' : ''}`}>
               {stats.overdue}
             </div>
             <p className="text-xs text-muted-foreground">Tasks past deadline</p>
@@ -244,8 +247,8 @@ export default function DashboardPage() {
 
       {/* Main Content */}
       <Card>
-        <CardContent className="p-6">
-          <div className="mb-6">
+        <CardContent className="p-4 sm:p-6">
+          <div className="mb-4 sm:mb-6">
             <SearchBar
               value={searchQuery}
               onChange={setSearchQuery}
@@ -267,57 +270,56 @@ export default function DashboardPage() {
       </Card>
 
       {/* Create Task Modal */}
-      
-<AnimatePresence>
-  {showCreateModal && (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm">
-      <motion.div
-        initial={{ opacity: 0, scale: 0.95 }}
-        animate={{ opacity: 1, scale: 1 }}
-        exit={{ opacity: 0, scale: 0.95 }}
-        transition={{ duration: 0.2 }}
-        className="absolute inset-0"
-        onClick={() => setShowCreateModal(false)}
-      />
-      <div className="relative z-10 w-full max-w-2xl max-h-[85vh] overflow-y-auto rounded-xl">
-        <TaskForm
-          onSubmit={handleCreateTask}
-          submitLabel="Create Task"
-          onCancel={() => setShowCreateModal(false)}
-          mode="create"
-        />
-      </div>
-    </div>
-  )}
-</AnimatePresence>
+      <AnimatePresence>
+        {showCreateModal && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-black/60 backdrop-blur-sm">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.95 }}
+              transition={{ duration: 0.2 }}
+              className="absolute inset-0"
+              onClick={() => setShowCreateModal(false)}
+            />
+            <div className="relative z-10 w-full max-w-2xl max-h-[85vh] overflow-y-auto rounded-xl responsive-modal">
+              <TaskForm
+                onSubmit={handleCreateTask}
+                submitLabel="Create Task"
+                onCancel={() => setShowCreateModal(false)}
+                mode="create"
+              />
+            </div>
+          </div>
+        )}
+      </AnimatePresence>
 
       {/* Edit Task Modal */}
       <AnimatePresence>
-            {editingTask && (
-              <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm">
-                <motion.div
-                  initial={{ opacity: 0, scale: 0.95 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  exit={{ opacity: 0, scale: 0.95 }}
-                  transition={{ duration: 0.2 }}
-                  className="absolute inset-0"
-                  onClick={() => setEditingTask(null)}
-                />
-                <div className="relative z-10 w-full max-w-2xl max-h-[85vh] overflow-y-auto rounded-xl">
-                  <TaskForm
-                    onSubmit={handleUpdateTask}
-                    initialTitle={editingTask.title}
-                    initialDescription={editingTask.description || ''}
-                    initialCategory={editingTask.category}
-                    initialPriority={editingTask.priority}
-                    initialDueDate={editingTask.due_date}
-                    submitLabel="Update Task"
-                    onCancel={() => setEditingTask(null)}
-                    mode="edit"
-                  />
-                </div>
-              </div>
-            )}
+        {editingTask && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-black/60 backdrop-blur-sm">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.95 }}
+              transition={{ duration: 0.2 }}
+              className="absolute inset-0"
+              onClick={() => setEditingTask(null)}
+            />
+            <div className="relative z-10 w-full max-w-2xl max-h-[85vh] overflow-y-auto rounded-xl responsive-modal">
+              <TaskForm
+                onSubmit={handleUpdateTask}
+                initialTitle={editingTask.title}
+                initialDescription={editingTask.description || ''}
+                initialCategory={editingTask.category}
+                initialPriority={editingTask.priority}
+                initialDueDate={editingTask.due_date}
+                submitLabel="Update Task"
+                onCancel={() => setEditingTask(null)}
+                mode="edit"
+              />
+            </div>
+          </div>
+        )}
       </AnimatePresence>
     </motion.div>
   );
