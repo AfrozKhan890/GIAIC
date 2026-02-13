@@ -59,6 +59,14 @@ export default function Sidebar({ onNavItemClick, isMobile = false }: SidebarPro
     if (onNavItemClick) onNavItemClick();
   };
 
+  // Function to check if a route is active
+  const isRouteActive = (href: string) => {
+    if (href === '/dashboard') {
+      return pathname === '/dashboard';
+    }
+    return pathname.startsWith(href);
+  };
+
   if (!mounted) return null;
 
   return (
@@ -69,23 +77,26 @@ export default function Sidebar({ onNavItemClick, isMobile = false }: SidebarPro
       {/* Brand */}
       <div className="h-20 px-6 flex items-center border-b border-border/50">
         <Link href="/" className="flex items-center gap-3 group" onClick={onNavItemClick}>
-          <div className="p-2.5 rounded-xl bg-gradient-ai text-gray-900 shadow-lg shadow-[#00F5D4]/30 group-hover:scale-110 transition-transform">
+          <div className="p-2.5 rounded-xl bg-gradient-to-r from-[#00F5D4] to-[#00D9F5] text-gray-900 shadow-lg shadow-[#00F5D4]/30 group-hover:scale-110 transition-transform">
             <CheckCircleIcon className="w-6 h-6" />
           </div>
           <div className="flex flex-col">
             <span className="text-lg font-bold tracking-tight">TaskSync</span>
-            <span className="text-xs font-semibold gradient-text uppercase tracking-wider">AI</span>
+            <span className="text-xs font-semibold bg-gradient-to-r from-[#00F5D4] to-[#00D9F5] bg-clip-text text-transparent uppercase tracking-wider">
+              AI
+            </span>
           </div>
         </Link>
       </div>
 
       {/* Navigation */}
-      <nav className="flex-1 p-4 space-y-2 overflow-y-auto">
+      <nav className="flex-1 p-4 space-y-1 overflow-y-auto">
         <div className="text-xs font-medium text-muted-foreground uppercase tracking-wider px-4 mb-2">
           Navigation
         </div>
         {menuItems.map((item) => {
-          const isActive = pathname === item.href || pathname.startsWith(item.href + '/');
+          const isActive = isRouteActive(item.href);
+          
           return (
             <Link
               key={item.name}
@@ -94,21 +105,29 @@ export default function Sidebar({ onNavItemClick, isMobile = false }: SidebarPro
               className={cn(
                 "group flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium transition-all duration-200 relative",
                 isActive
-                  ? "bg-primary/10 text-primary border-l-4 border-primary"
+                  ? "bg-gradient-to-r from-[#00F5D4]/20 to-[#00D9F5]/20 text-[#00F5D4] border-l-4 border-[#00F5D4]"
                   : "text-muted-foreground hover:text-foreground hover:bg-accent"
               )}
             >
               <item.icon className={cn(
-                "w-5 h-5 transition-transform",
-                isActive && "scale-110"
+                "w-5 h-5 transition-all duration-200",
+                isActive && "scale-110 text-[#00F5D4]"
               )} />
-              <span>{item.name}</span>
+              <span className={cn(
+                "transition-all duration-200",
+                isActive && "font-semibold"
+              )}>
+                {item.name}
+              </span>
+              
+              {/* Active Indicator */}
               {isActive && (
                 <motion.div
                   layoutId="sidebarActive"
-                  className="absolute inset-0 bg-primary/5 rounded-lg -z-10"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
+                  className="absolute inset-0 bg-gradient-to-r from-[#00F5D4]/10 to-[#00D9F5]/10 rounded-lg -z-10"
+                  initial={{ opacity: 0, scale: 0.95 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  exit={{ opacity: 0, scale: 0.95 }}
                   transition={{ duration: 0.2 }}
                 />
               )}
@@ -133,18 +152,19 @@ export default function Sidebar({ onNavItemClick, isMobile = false }: SidebarPro
             variant="ghost"
             size="sm"
             onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-            className="h-7 w-12 rounded-full relative"
+            className="h-7 w-12 rounded-full relative bg-accent"
           >
             <motion.div
               animate={{ x: theme === 'dark' ? 20 : 0 }}
-              className="absolute left-1 w-5 h-5 bg-primary rounded-full"
+              className="absolute left-1 top-1/2 -translate-y-1/2 w-5 h-5 bg-gradient-to-r from-[#00F5D4] to-[#00D9F5] rounded-full shadow-lg"
+              transition={{ type: 'spring', stiffness: 300, damping: 25 }}
             />
           </Button>
         </div>
 
         {/* User Profile */}
-        <div className="flex items-center gap-3 p-3 rounded-lg bg-accent/50">
-          <div className="w-10 h-10 rounded-lg bg-gradient-ai flex items-center justify-center text-gray-900 font-bold text-sm">
+        <div className="flex items-center gap-3 p-3 rounded-lg bg-accent/50 hover:bg-accent transition-colors">
+          <div className="w-10 h-10 rounded-lg bg-gradient-to-r from-[#00F5D4] to-[#00D9F5] flex items-center justify-center text-gray-900 font-bold text-sm shadow-lg">
             {user?.name?.[0]?.toUpperCase() || 'U'}
           </div>
           <div className="flex-1 min-w-0">
@@ -155,12 +175,17 @@ export default function Sidebar({ onNavItemClick, isMobile = false }: SidebarPro
             variant="ghost"
             size="icon"
             onClick={handleLogout}
-            className="h-8 w-8 rounded-lg hover:bg-destructive/10 hover:text-destructive"
+            className="h-8 w-8 rounded-lg hover:bg-destructive/10 hover:text-destructive transition-colors"
             title="Logout"
           >
             <ArrowLeftOnRectangleIcon className="h-4 w-4" />
           </Button>
         </div>
+      </div>
+
+      {/* Version Info */}
+      <div className="px-4 pb-4 text-[10px] text-muted-foreground/50 text-center">
+        TaskSync AI v1.0.0
       </div>
     </aside>
   );
