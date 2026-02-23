@@ -1,0 +1,224 @@
+[2026-02-23 06:33:06] 
+============================================================
+[2026-02-23 06:33:06] 🚀 STARTING AI EMPLOYEE CYCLE
+[2026-02-23 06:33:06] ============================================================
+[2026-02-23 06:33:06] 📧 Running Gmail watcher...
+[2026-02-23 06:33:06] ❌ Error: Traceback (most recent call last):
+  File "C:\Users\afroz\Desktop\GIAIC\AI_Employee_Vault\Scripts\gmail_watcher.py", line 11, in <module>
+    from google.auth.transport.requests import Request
+ModuleNotFoundError: No module named 'google'
+
+[2026-02-23 06:33:06] ============================================================
+[2026-02-23 06:33:06] ✅ CYCLE COMPLETE
+[2026-02-23 06:33:06] ============================================================
+
+[2026-02-23 06:36:13] 
+============================================================
+[2026-02-23 06:36:13] 🚀 STARTING AI EMPLOYEE CYCLE
+[2026-02-23 06:36:13] ============================================================
+[2026-02-23 06:36:13] 📧 Running Gmail watcher...
+[2026-02-23 06:36:13] ❌ Error: Traceback (most recent call last):
+  File "C:\Users\afroz\Desktop\GIAIC\AI_Employee_Vault\Scripts\gmail_watcher.py", line 11, in <module>
+    from google.auth.transport.requests import Request
+ModuleNotFoundError: No module named 'google'
+
+[2026-02-23 06:36:13] ============================================================
+[2026-02-23 06:36:13] ✅ CYCLE COMPLETE
+[2026-02-23 06:36:13] ============================================================
+
+[2026-02-23 06:37:47] 🔄 Continuous mode: Every 5 minutes
+[2026-02-23 06:37:47] 
+============================================================
+[2026-02-23 06:37:47] 🚀 STARTING AI EMPLOYEE CYCLE
+[2026-02-23 06:37:47] ============================================================
+[2026-02-23 06:37:47] 📧 Running Gmail watcher...
+[2026-02-23 06:37:48] ❌ Error: Traceback (most recent call last):
+  File "C:\Users\afroz\Desktop\GIAIC\AI_Employee_Vault\Scripts\gmail_watcher.py", line 11, in <module>
+    from google.auth.transport.requests import Request
+ModuleNotFoundError: No module named 'google'
+
+[2026-02-23 06:37:48] ============================================================
+[2026-02-23 06:37:48] ✅ CYCLE COMPLETE
+[2026-02-23 06:37:48] ============================================================
+
+[2026-02-23 06:37:48] ⏰ Waiting 5 minutes...
+[2026-02-23 06:38:33] 👋 Stopped by user
+[2026-02-23 06:38:38] 
+============================================================
+[2026-02-23 06:38:38] 🚀 STARTING AI EMPLOYEE CYCLE
+[2026-02-23 06:38:38] ============================================================
+[2026-02-23 06:38:38] 📧 Running Gmail watcher...
+[2026-02-23 06:38:39] ❌ Error: Traceback (most recent call last):
+  File "C:\Users\afroz\Desktop\GIAIC\AI_Employee_Vault\Scripts\gmail_watcher.py", line 11, in <module>
+    from google.auth.transport.requests import Request
+ModuleNotFoundError: No module named 'google'
+
+[2026-02-23 06:38:39] ============================================================
+[2026-02-23 06:38:39] ✅ CYCLE COMPLETE
+[2026-02-23 06:38:39] ============================================================
+
+[2026-02-23 06:46:55] 
+============================================================
+[2026-02-23 06:46:55] 🚀 STARTING AI EMPLOYEE CYCLE
+[2026-02-23 06:46:55] ============================================================
+[2026-02-23 06:46:55] 📧 Running Gmail watcher...
+[2026-02-23 06:46:55] ❌ Exception: [WinError 2] The system cannot find the file specified
+[2026-02-23 06:46:55] ============================================================
+[2026-02-23 06:46:55] ✅ CYCLE COMPLETE
+[2026-02-23 06:46:55] ============================================================
+
+[2026-02-23 06:48:02] 
+============================================================
+[2026-02-23 06:48:02] 🚀 STARTING AI EMPLOYEE CYCLE
+[2026-02-23 06:48:02] ============================================================
+[2026-02-23 06:48:02] 📧 Running Gmail watcher...
+[2026-02-23 06:48:16] ✅ Gmail watcher completed
+[2026-02-23 06:48:16] 📊 Files in Needs_Action: 20
+[2026-02-23 06:48:16] 🤖 Starting Kiro processing...
+[2026-02-23 06:48:16] 📋 Processing 20 files...
+[2026-02-23 06:48:16] ⏳ Kiro is working (may take 30-60 seconds)...
+[2026-02-23 06:48:16] ❌ Error: [WinError 2] The system cannot find the file specified
+[2026-02-23 06:48:16] ============================================================
+[2026-02-23 06:48:16] ✅ CYCLE COMPLETE
+[2026-02-23 06:48:16] ============================================================
+
+[2026-02-23 06:57:22] 
+============================================================
+[2026-02-23 06:57:22] 🚀 STARTING AI EMPLOYEE CYCLE
+[2026-02-23 06:57:22] ============================================================
+[2026-02-23 06:57:22] 📧 Running Gmail watcher...
+[2026-02-23 06:57:29] ✅ Gmail watcher completed
+[2026-02-23 06:57:29] 📊 Files in Needs_Action: 30
+[2026-02-23 06:57:29] 🤖 Starting Kiro processing...
+[2026-02-23 06:57:29] 📋 Processing 30 files...
+[2026-02-23 06:57:29] ⏳ Kiro is working (may take 30-60 seconds)...
+[2026-02-23 06:57:31] ✅ Kiro processing complete
+[2026-02-23 06:57:31] 📝 Response preview: ...
+[2026-02-23 06:57:31] 📊 Plans created: 0
+[2026-02-23 06:57:31] ============================================================
+[2026-02-23 06:57:31] ✅ CYCLE COMPLETE
+[2026-02-23 06:57:31] ============================================================
+
+[2026-02-23 07:05:58] 
+============================================================
+[2026-02-23 07:05:58] 🚀 STARTING AI EMPLOYEE CYCLE (FIXED VERSION)
+[2026-02-23 07:05:58] ============================================================
+[2026-02-23 07:05:58] 📧 Running Gmail watcher...
+[2026-02-23 07:06:05] ✅ Gmail watcher completed
+[2026-02-23 07:06:05] 📊 Files in Needs_Action: 40
+[2026-02-23 07:06:05] 📋 Processing 40 files one by one...
+[2026-02-23 07:06:05] 
+[1/40] Processing...
+[2026-02-23 07:06:05] 🔄 Processing: EMAIL_20260219_105521_19c37a3452.md
+[2026-02-23 07:06:06] ❌ Failed to create plan for EMAIL_20260219_105521_19c37a3452.md
+[2026-02-23 07:06:08] 
+[2/40] Processing...
+[2026-02-23 07:06:08] 🔄 Processing: EMAIL_20260219_105521_19c5b0826b.md
+[2026-02-23 07:06:10] ❌ Failed to create plan for EMAIL_20260219_105521_19c5b0826b.md
+[2026-02-23 07:06:12] 
+[3/40] Processing...
+[2026-02-23 07:06:12] 🔄 Processing: EMAIL_20260219_105522_19bde602f7.md
+[2026-02-23 07:06:14] ❌ Failed to create plan for EMAIL_20260219_105522_19bde602f7.md
+[2026-02-23 07:06:16] 
+[4/40] Processing...
+[2026-02-23 07:06:16] 🔄 Processing: EMAIL_20260219_105522_19c2d355a1.md
+[2026-02-23 07:06:17] ❌ Failed to create plan for EMAIL_20260219_105522_19c2d355a1.md
+[2026-02-23 07:06:19] 
+[5/40] Processing...
+[2026-02-23 07:06:19] 🔄 Processing: EMAIL_20260219_105522_19c37a2875.md
+[2026-02-23 07:06:21] ❌ Failed to create plan for EMAIL_20260219_105522_19c37a2875.md
+[2026-02-23 07:06:23] 
+[6/40] Processing...
+[2026-02-23 07:06:23] 🔄 Processing: EMAIL_20260219_105523_199945b800.md
+[2026-02-23 07:06:25] ❌ Failed to create plan for EMAIL_20260219_105523_199945b800.md
+[2026-02-23 07:06:27] 
+[7/40] Processing...
+[2026-02-23 07:06:27] 🔄 Processing: EMAIL_20260219_105523_199bf750d7.md
+[2026-02-23 07:06:28] ❌ Failed to create plan for EMAIL_20260219_105523_199bf750d7.md
+[2026-02-23 07:06:30] 
+[8/40] Processing...
+[2026-02-23 07:06:30] 🔄 Processing: EMAIL_20260219_105523_199dea77e8.md
+[2026-02-23 07:06:32] ❌ Failed to create plan for EMAIL_20260219_105523_199dea77e8.md
+[2026-02-23 07:06:34] 
+[9/40] Processing...
+[2026-02-23 07:06:34] 🔄 Processing: EMAIL_20260219_105523_19b7b69def.md
+[2026-02-23 07:06:36] ❌ Failed to create plan for EMAIL_20260219_105523_19b7b69def.md
+[2026-02-23 07:06:38] 
+[10/40] Processing...
+[2026-02-23 07:06:38] 🔄 Processing: EMAIL_20260219_105524_1998fc34e7.md
+[2026-02-23 07:06:40] ❌ Failed to create plan for EMAIL_20260219_105524_1998fc34e7.md
+[2026-02-23 07:06:42] 
+[11/40] Processing...
+[2026-02-23 07:06:42] 🔄 Processing: EMAIL_20260223_064813_19c37a3452.md
+[2026-02-23 07:07:22] 
+============================================================
+[2026-02-23 07:07:22] 🚀 STARTING AI EMPLOYEE CYCLE (FIXED VERSION)
+[2026-02-23 07:07:22] ============================================================
+[2026-02-23 07:07:22] 📧 Running Gmail watcher...
+[2026-02-23 07:07:29] ✅ Gmail watcher completed
+[2026-02-23 07:07:29] 📊 Files in Needs_Action: 50
+[2026-02-23 07:07:29] 📋 Processing 50 files one by one...
+[2026-02-23 07:07:29] 
+[1/50] Processing...
+[2026-02-23 07:07:29] 🔄 Processing: EMAIL_20260219_105521_19c37a3452.md
+[2026-02-23 07:07:31] ❌ Failed to create plan for EMAIL_20260219_105521_19c37a3452.md
+[2026-02-23 07:07:33] 
+[2/50] Processing...
+[2026-02-23 07:07:33] 🔄 Processing: EMAIL_20260219_105521_19c5b0826b.md
+[2026-02-23 07:07:35] ❌ Failed to create plan for EMAIL_20260219_105521_19c5b0826b.md
+[2026-02-23 07:07:56] 
+============================================================
+[2026-02-23 07:07:56] 🚀 STARTING AI EMPLOYEE CYCLE (FIXED VERSION)
+[2026-02-23 07:07:56] ============================================================
+[2026-02-23 07:07:56] 📧 Running Gmail watcher...
+[2026-02-23 07:08:03] ✅ Gmail watcher completed
+[2026-02-23 07:08:03] 📊 Files in Needs_Action: 10
+[2026-02-23 07:08:03] 📋 Processing 10 files one by one...
+[2026-02-23 07:08:03] 
+[1/10] Processing...
+[2026-02-23 07:08:03] 🔄 Processing: EMAIL_20260223_070759_19c5b0826b.md
+[2026-02-23 07:08:05] ❌ Failed to create plan for EMAIL_20260223_070759_19c5b0826b.md
+[2026-02-23 07:08:07] 
+[2/10] Processing...
+[2026-02-23 07:08:07] 🔄 Processing: EMAIL_20260223_070800_19c37a2875.md
+[2026-02-23 07:08:08] ❌ Failed to create plan for EMAIL_20260223_070800_19c37a2875.md
+[2026-02-23 07:08:10] 
+[3/10] Processing...
+[2026-02-23 07:08:10] 🔄 Processing: EMAIL_20260223_070800_19c37a3452.md
+[2026-02-23 07:08:12] ❌ Failed to create plan for EMAIL_20260223_070800_19c37a3452.md
+[2026-02-23 07:08:14] 
+[4/10] Processing...
+[2026-02-23 07:08:14] 🔄 Processing: EMAIL_20260223_070801_19bde602f7.md
+[2026-02-23 07:08:16] ❌ Failed to create plan for EMAIL_20260223_070801_19bde602f7.md
+[2026-02-23 07:08:18] 
+[5/10] Processing...
+[2026-02-23 07:08:18] 🔄 Processing: EMAIL_20260223_070801_19c2d355a1.md
+[2026-02-23 07:08:19] ❌ Failed to create plan for EMAIL_20260223_070801_19c2d355a1.md
+[2026-02-23 07:08:21] 
+[6/10] Processing...
+[2026-02-23 07:08:21] 🔄 Processing: EMAIL_20260223_070802_199bf750d7.md
+[2026-02-23 07:08:23] ❌ Failed to create plan for EMAIL_20260223_070802_199bf750d7.md
+[2026-02-23 07:08:25] 
+[7/10] Processing...
+[2026-02-23 07:08:25] 🔄 Processing: EMAIL_20260223_070802_199dea77e8.md
+[2026-02-23 07:08:27] ❌ Failed to create plan for EMAIL_20260223_070802_199dea77e8.md
+[2026-02-23 07:08:29] 
+[8/10] Processing...
+[2026-02-23 07:08:29] 🔄 Processing: EMAIL_20260223_070802_19b7b69def.md
+[2026-02-23 07:08:31] ❌ Failed to create plan for EMAIL_20260223_070802_19b7b69def.md
+[2026-02-23 07:08:33] 
+[9/10] Processing...
+[2026-02-23 07:08:33] 🔄 Processing: EMAIL_20260223_070803_1998fc34e7.md
+[2026-02-23 07:08:35] ❌ Failed to create plan for EMAIL_20260223_070803_1998fc34e7.md
+[2026-02-23 07:08:37] 
+[10/10] Processing...
+[2026-02-23 07:08:37] 🔄 Processing: EMAIL_20260223_070803_199945b800.md
+[2026-02-23 07:08:39] ❌ Failed to create plan for EMAIL_20260223_070803_199945b800.md
+[2026-02-23 07:08:41] 
+✅ Successful: 0
+[2026-02-23 07:08:41] ❌ Failed: 10
+[2026-02-23 07:08:42] 📊 Plans created: 0
+[2026-02-23 07:08:42] ============================================================
+[2026-02-23 07:08:42] ✅ CYCLE COMPLETE
+[2026-02-23 07:08:42] ============================================================
+
