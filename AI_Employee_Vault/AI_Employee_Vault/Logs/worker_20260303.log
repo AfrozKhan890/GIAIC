@@ -1,0 +1,513 @@
+[2026-03-03 06:54:17] 
+============================================================
+[2026-03-03 06:54:17] 🚀 AI EMPLOYEE - STARTING
+[2026-03-03 06:54:17] ============================================================
+[2026-03-03 06:54:17] 📧 Running Gmail watcher...
+[2026-03-03 06:54:26] ✅ Gmail watcher completed
+[2026-03-03 06:54:26] 📊 Email files in Needs_Action: 33
+[2026-03-03 06:54:26] 📧 Processing 33 emails...
+[2026-03-03 06:54:26] 
+[1/33] Processing: EMAIL_20260303_063913_19c930c249.md
+[2026-03-03 06:54:26] ✅ Created plan with Kiro: EMAIL_20260303_063913_19c930c249_plan.md
+[2026-03-03 06:54:28] 
+[2/33] Processing: EMAIL_20260303_063914_19c37a2875.md
+[2026-03-03 06:54:29] ✅ Created plan with Kiro: EMAIL_20260303_063914_19c37a2875_plan.md
+[2026-03-03 06:54:31] 
+[3/33] Processing: EMAIL_20260303_063914_19c37a3452.md
+[2026-03-03 06:54:32] ✅ Created plan with Kiro: EMAIL_20260303_063914_19c37a3452_plan.md
+[2026-03-03 06:54:34] 
+[4/33] Processing: EMAIL_20260303_063914_19c5b0826b.md
+[2026-03-03 06:54:35] ✅ Created plan with Kiro: EMAIL_20260303_063914_19c5b0826b_plan.md
+[2026-03-03 06:54:37] 
+[5/33] Processing: EMAIL_20260303_063915_19b7b69def.md
+[2026-03-03 06:54:38] ✅ Created plan with Kiro: EMAIL_20260303_063915_19b7b69def_plan.md
+[2026-03-03 06:54:40] 
+[6/33] Processing: EMAIL_20260303_063915_19bde602f7.md
+[2026-03-03 06:54:42] ❌ Kiro failed for EMAIL_20260303_063915_19bde602f7.md
+[2026-03-03 06:54:42] ⚠️ Created fallback plan: EMAIL_20260303_063915_19bde602f7.md
+[2026-03-03 06:54:44] 
+[7/33] Processing: EMAIL_20260303_063915_19c2d355a1.md
+[2026-03-03 06:54:45] ✅ Created plan with Kiro: EMAIL_20260303_063915_19c2d355a1_plan.md
+[2026-03-03 06:54:47] 
+[8/33] Processing: EMAIL_20260303_063916_199bf750d7.md
+[2026-03-03 06:54:48] ✅ Created plan with Kiro: EMAIL_20260303_063916_199bf750d7_plan.md
+[2026-03-03 06:54:50] 
+[9/33] Processing: EMAIL_20260303_063916_199dea77e8.md
+[2026-03-03 06:54:53] ✅ Created plan with Kiro: EMAIL_20260303_063916_199dea77e8_plan.md
+[2026-03-03 06:54:55] 
+[10/33] Processing: EMAIL_20260303_063917_199945b800.md
+[2026-03-03 06:54:58] ✅ Created plan with Kiro: EMAIL_20260303_063917_199945b800_plan.md
+[2026-03-03 06:55:00] 
+[11/33] Processing: EMAIL_20260303_064408_19c930c249.md
+[2026-03-03 06:55:01] ✅ Created plan with Kiro: EMAIL_20260303_064408_19c930c249_plan.md
+[2026-03-03 06:55:03] 
+[12/33] Processing: EMAIL_20260303_064409_19c37a2875.md
+[2026-03-03 06:55:04] ✅ Created plan with Kiro: EMAIL_20260303_064409_19c37a2875_plan.md
+[2026-03-03 06:55:06] 
+[13/33] Processing: EMAIL_20260303_064409_19c37a3452.md
+[2026-03-03 06:55:09] ✅ Created plan with Kiro: EMAIL_20260303_064409_19c37a3452_plan.md
+[2026-03-03 06:55:11] 
+[14/33] Processing: EMAIL_20260303_064409_19c5b0826b.md
+[2026-03-03 06:55:12] ✅ Created plan with Kiro: EMAIL_20260303_064409_19c5b0826b_plan.md
+[2026-03-03 06:55:15] 
+[15/33] Processing: EMAIL_20260303_064410_19bde602f7.md
+[2026-03-03 06:55:18] ❌ Kiro failed for EMAIL_20260303_064410_19bde602f7.md
+[2026-03-03 06:55:18] ⚠️ Created fallback plan: EMAIL_20260303_064410_19bde602f7.md
+[2026-03-03 06:55:20] 
+[16/33] Processing: EMAIL_20260303_064410_19c2d355a1.md
+[2026-03-03 06:55:22] ✅ Created plan with Kiro: EMAIL_20260303_064410_19c2d355a1_plan.md
+[2026-03-03 06:55:24] 
+[17/33] Processing: EMAIL_20260303_064411_199945b800.md
+[2026-03-03 06:55:26] ✅ Created plan with Kiro: EMAIL_20260303_064411_199945b800_plan.md
+[2026-03-03 06:55:28] 
+[18/33] Processing: EMAIL_20260303_064411_199bf750d7.md
+[2026-03-03 06:55:29] ✅ Created plan with Kiro: EMAIL_20260303_064411_199bf750d7_plan.md
+[2026-03-03 06:55:31] 
+[19/33] Processing: EMAIL_20260303_064411_199dea77e8.md
+[2026-03-03 06:55:36] ✅ Created plan with Kiro: EMAIL_20260303_064411_199dea77e8_plan.md
+[2026-03-03 06:55:38] 
+[20/33] Processing: EMAIL_20260303_064411_19b7b69def.md
+[2026-03-03 06:55:39] ✅ Created plan with Kiro: EMAIL_20260303_064411_19b7b69def_plan.md
+[2026-03-03 06:55:41] 
+[21/33] Processing: EMAIL_20260303_064656_19c37a3452.md
+[2026-03-03 06:55:49] ✅ Created plan with Kiro: EMAIL_20260303_064656_19c37a3452_plan.md
+[2026-03-03 06:55:51] 
+[22/33] Processing: EMAIL_20260303_064656_19c5b0826b.md
+[2026-03-03 06:55:53] ✅ Created plan with Kiro: EMAIL_20260303_064656_19c5b0826b_plan.md
+[2026-03-03 06:55:55] 
+[23/33] Processing: EMAIL_20260303_064656_19c930c249.md
+[2026-03-03 06:55:57] ✅ Created plan with Kiro: EMAIL_20260303_064656_19c930c249_plan.md
+[2026-03-03 06:55:59] 
+[24/33] Processing: EMAIL_20260303_065423_19c5b0826b.md
+[2026-03-03 06:56:07] ✅ Created plan with Kiro: EMAIL_20260303_065423_19c5b0826b_plan.md
+[2026-03-03 06:56:09] 
+[25/33] Processing: EMAIL_20260303_065423_19c930c249.md
+[2026-03-03 06:56:10] ✅ Created plan with Kiro: EMAIL_20260303_065423_19c930c249_plan.md
+[2026-03-03 06:56:12] 
+[26/33] Processing: EMAIL_20260303_065424_19bde602f7.md
+[2026-03-03 06:56:14] ❌ Kiro failed for EMAIL_20260303_065424_19bde602f7.md
+[2026-03-03 06:56:14] ⚠️ Created fallback plan: EMAIL_20260303_065424_19bde602f7.md
+[2026-03-03 06:56:16] 
+[27/33] Processing: EMAIL_20260303_065424_19c2d355a1.md
+[2026-03-03 06:56:17] ✅ Created plan with Kiro: EMAIL_20260303_065424_19c2d355a1_plan.md
+[2026-03-03 06:56:19] 
+[28/33] Processing: EMAIL_20260303_065424_19c37a2875.md
+[2026-03-03 06:56:20] ✅ Created plan with Kiro: EMAIL_20260303_065424_19c37a2875_plan.md
+[2026-03-03 06:56:22] 
+[29/33] Processing: EMAIL_20260303_065424_19c37a3452.md
+[2026-03-03 06:56:22] ✅ Created plan with Kiro: EMAIL_20260303_065424_19c37a3452_plan.md
+[2026-03-03 06:56:24] 
+[30/33] Processing: EMAIL_20260303_065425_199bf750d7.md
+[2026-03-03 06:56:25] ✅ Created plan with Kiro: EMAIL_20260303_065425_199bf750d7_plan.md
+[2026-03-03 06:56:27] 
+[31/33] Processing: EMAIL_20260303_065425_199dea77e8.md
+[2026-03-03 06:56:30] ✅ Created plan with Kiro: EMAIL_20260303_065425_199dea77e8_plan.md
+[2026-03-03 06:56:32] 
+[32/33] Processing: EMAIL_20260303_065425_19b7b69def.md
+[2026-03-03 06:56:33] ✅ Created plan with Kiro: EMAIL_20260303_065425_19b7b69def_plan.md
+[2026-03-03 06:56:35] 
+[33/33] Processing: EMAIL_20260303_065426_199945b800.md
+[2026-03-03 06:56:36] ✅ Created plan with Kiro: EMAIL_20260303_065426_199945b800_plan.md
+[2026-03-03 06:56:38] 
+✅ Successful: 33
+[2026-03-03 06:56:38] ❌ Failed: 0
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_063913_19c930c249.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_063914_19c37a2875.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_063914_19c37a3452.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_063914_19c5b0826b.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_063915_19b7b69def.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_063915_19bde602f7.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_063915_19c2d355a1.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_063916_199bf750d7.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_063916_199dea77e8.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_063917_199945b800.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_064408_19c930c249.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_064409_19c37a2875.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_064409_19c37a3452.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_064409_19c5b0826b.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_064410_19bde602f7.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_064410_19c2d355a1.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_064411_199945b800.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_064411_199bf750d7.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_064411_199dea77e8.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_064411_19b7b69def.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_064656_19c37a3452.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_064656_19c5b0826b.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_064656_19c930c249.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_065423_19c5b0826b.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_065423_19c930c249.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_065424_19bde602f7.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_065424_19c2d355a1.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_065424_19c37a2875.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_065424_19c37a3452.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_065425_199bf750d7.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_065425_199dea77e8.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_065425_19b7b69def.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] ✅ Moved: EMAIL_20260303_065426_199945b800.md -> Done/2026-03-03/
+[2026-03-03 06:56:52] 📊 Total moved: 33
+[2026-03-03 06:56:52] 📊 Dashboard updated
+[2026-03-03 06:56:52] ============================================================
+[2026-03-03 06:56:52] ✅ CYCLE COMPLETE
+[2026-03-03 06:56:52] ============================================================
+[2026-03-03 07:02:23] 
+============================================================
+[2026-03-03 07:02:23] 🚀 AI EMPLOYEE - STARTING
+[2026-03-03 07:02:23] ============================================================
+[2026-03-03 07:02:23] 📧 Running Gmail watcher...
+[2026-03-03 07:02:30] ✅ Gmail watcher completed
+[2026-03-03 07:02:30] 📊 Email files in Needs_Action: 10
+[2026-03-03 07:02:30] 📧 Processing 10 emails...
+[2026-03-03 07:02:30] 
+[1/10] Processing: EMAIL_20260303_070227_19c930c249.md
+[2026-03-03 07:02:31] ✅ Created plan with Kiro: EMAIL_20260303_070227_19c930c249_plan.md
+[2026-03-03 07:02:33] 
+[2/10] Processing: EMAIL_20260303_070228_19c2d355a1.md
+[2026-03-03 07:02:33] ✅ Created plan with Kiro: EMAIL_20260303_070228_19c2d355a1_plan.md
+[2026-03-03 07:02:35] 
+[3/10] Processing: EMAIL_20260303_070228_19c37a2875.md
+[2026-03-03 07:02:36] ✅ Created plan with Kiro: EMAIL_20260303_070228_19c37a2875_plan.md
+[2026-03-03 07:02:38] 
+[4/10] Processing: EMAIL_20260303_070228_19c37a3452.md
+[2026-03-03 07:02:40] ✅ Created plan with Kiro: EMAIL_20260303_070228_19c37a3452_plan.md
+[2026-03-03 07:02:42] 
+[5/10] Processing: EMAIL_20260303_070228_19c5b0826b.md
+[2026-03-03 07:02:43] ✅ Created plan with Kiro: EMAIL_20260303_070228_19c5b0826b_plan.md
+[2026-03-03 07:02:45] 
+[6/10] Processing: EMAIL_20260303_070229_199bf750d7.md
+[2026-03-03 07:02:46] ✅ Created plan with Kiro: EMAIL_20260303_070229_199bf750d7_plan.md
+[2026-03-03 07:02:48] 
+[7/10] Processing: EMAIL_20260303_070229_199dea77e8.md
+[2026-03-03 07:02:49] ✅ Created plan with Kiro: EMAIL_20260303_070229_199dea77e8_plan.md
+[2026-03-03 07:02:51] 
+[8/10] Processing: EMAIL_20260303_070229_19b7b69def.md
+[2026-03-03 07:02:52] ✅ Created plan with Kiro: EMAIL_20260303_070229_19b7b69def_plan.md
+[2026-03-03 07:02:54] 
+[9/10] Processing: EMAIL_20260303_070229_19bde602f7.md
+[2026-03-03 07:02:57] ❌ Kiro failed for EMAIL_20260303_070229_19bde602f7.md
+[2026-03-03 07:02:57] ⚠️ Created fallback plan: EMAIL_20260303_070229_19bde602f7.md
+[2026-03-03 07:02:59] 
+[10/10] Processing: EMAIL_20260303_070230_199945b800.md
+[2026-03-03 07:03:00] ✅ Created plan with Kiro: EMAIL_20260303_070230_199945b800_plan.md
+[2026-03-03 07:03:02] 
+✅ Successful: 10
+[2026-03-03 07:03:02] ❌ Failed: 0
+[2026-03-03 07:03:07] ✅ Moved: EMAIL_20260303_070227_19c930c249.md -> Done/2026-03-03/
+[2026-03-03 07:03:07] ✅ Moved: EMAIL_20260303_070228_19c2d355a1.md -> Done/2026-03-03/
+[2026-03-03 07:03:07] ✅ Moved: EMAIL_20260303_070228_19c37a2875.md -> Done/2026-03-03/
+[2026-03-03 07:03:07] ✅ Moved: EMAIL_20260303_070228_19c37a3452.md -> Done/2026-03-03/
+[2026-03-03 07:03:07] ✅ Moved: EMAIL_20260303_070228_19c5b0826b.md -> Done/2026-03-03/
+[2026-03-03 07:03:07] ✅ Moved: EMAIL_20260303_070229_199bf750d7.md -> Done/2026-03-03/
+[2026-03-03 07:03:07] ✅ Moved: EMAIL_20260303_070229_199dea77e8.md -> Done/2026-03-03/
+[2026-03-03 07:03:07] ✅ Moved: EMAIL_20260303_070229_19b7b69def.md -> Done/2026-03-03/
+[2026-03-03 07:03:07] ✅ Moved: EMAIL_20260303_070229_19bde602f7.md -> Done/2026-03-03/
+[2026-03-03 07:03:07] ✅ Moved: EMAIL_20260303_070230_199945b800.md -> Done/2026-03-03/
+[2026-03-03 07:03:07] 📊 Total moved: 10
+[2026-03-03 07:03:07] 📊 Dashboard updated
+[2026-03-03 07:03:07] ============================================================
+[2026-03-03 07:03:07] ✅ CYCLE COMPLETE
+[2026-03-03 07:03:07] ============================================================
+[2026-03-03 07:05:27] 
+============================================================
+[2026-03-03 07:05:27] 🚀 AI EMPLOYEE - STARTING
+[2026-03-03 07:05:27] ============================================================
+[2026-03-03 07:05:27] 📧 Running Gmail watcher...
+[2026-03-03 07:05:47] ✅ Gmail watcher completed
+[2026-03-03 07:05:47] 📊 Email files in Needs_Action: 10
+[2026-03-03 07:05:47] 📧 Processing 10 emails...
+[2026-03-03 07:05:47] 
+[1/10] Processing: EMAIL_20260303_070542_19c5b0826b.md
+[2026-03-03 07:05:48] ✅ Created plan with Kiro: EMAIL_20260303_070542_19c5b0826b_plan.md
+[2026-03-03 07:05:50] 
+[2/10] Processing: EMAIL_20260303_070542_19c930c249.md
+[2026-03-03 07:05:50] ✅ Created plan with Kiro: EMAIL_20260303_070542_19c930c249_plan.md
+[2026-03-03 07:05:52] 
+[3/10] Processing: EMAIL_20260303_070543_19c37a3452.md
+[2026-03-03 07:05:53] ✅ Created plan with Kiro: EMAIL_20260303_070543_19c37a3452_plan.md
+[2026-03-03 07:05:55] 
+[4/10] Processing: EMAIL_20260303_070544_19c2d355a1.md
+[2026-03-03 07:05:56] ✅ Created plan with Kiro: EMAIL_20260303_070544_19c2d355a1_plan.md
+[2026-03-03 07:05:58] 
+[5/10] Processing: EMAIL_20260303_070544_19c37a2875.md
+[2026-03-03 07:06:00] ✅ Created plan with Kiro: EMAIL_20260303_070544_19c37a2875_plan.md
+[2026-03-03 07:06:02] 
+[6/10] Processing: EMAIL_20260303_070545_199dea77e8.md
+[2026-03-03 07:06:04] ✅ Created plan with Kiro: EMAIL_20260303_070545_199dea77e8_plan.md
+[2026-03-03 07:06:06] 
+[7/10] Processing: EMAIL_20260303_070545_19b7b69def.md
+[2026-03-03 07:06:07] ✅ Created plan with Kiro: EMAIL_20260303_070545_19b7b69def_plan.md
+[2026-03-03 07:06:09] 
+[8/10] Processing: EMAIL_20260303_070545_19bde602f7.md
+[2026-03-03 07:06:11] ✅ Created plan with Kiro: EMAIL_20260303_070545_19bde602f7_plan.md
+[2026-03-03 07:06:13] 
+[9/10] Processing: EMAIL_20260303_070546_199bf750d7.md
+[2026-03-03 07:06:14] ✅ Created plan with Kiro: EMAIL_20260303_070546_199bf750d7_plan.md
+[2026-03-03 07:06:17] 
+[10/10] Processing: EMAIL_20260303_070547_199945b800.md
+[2026-03-03 07:06:18] ✅ Created plan with Kiro: EMAIL_20260303_070547_199945b800_plan.md
+[2026-03-03 07:06:21] 
+✅ Successful: 10
+[2026-03-03 07:06:21] ❌ Failed: 0
+[2026-03-03 07:08:34] 📊 Dashboard updated
+[2026-03-03 07:08:34] ============================================================
+[2026-03-03 07:08:34] ✅ CYCLE COMPLETE
+[2026-03-03 07:08:34] ============================================================
+[2026-03-03 07:08:37] 
+============================================================
+[2026-03-03 07:08:37] 🚀 AI EMPLOYEE - STARTING
+[2026-03-03 07:08:37] ============================================================
+[2026-03-03 07:08:37] 📧 Running Gmail watcher...
+[2026-03-03 07:11:20] 
+============================================================
+[2026-03-03 07:11:20] 🚀 AI EMPLOYEE - STARTING
+[2026-03-03 07:11:20] ============================================================
+[2026-03-03 07:11:20] 📧 Running Gmail watcher...
+[2026-03-03 07:11:25] ✅ Gmail watcher completed
+[2026-03-03 07:11:25] 📊 Email files in Needs_Action: 30
+[2026-03-03 07:11:25] 📧 Processing 30 emails...
+[2026-03-03 07:11:25] 
+[1/30] Processing: EMAIL_20260303_070542_19c5b0826b.md
+[2026-03-03 07:11:25] ✅ Created plan with Kiro: EMAIL_20260303_070542_19c5b0826b_plan.md
+[2026-03-03 07:11:27] 
+[2/30] Processing: EMAIL_20260303_070542_19c930c249.md
+[2026-03-03 07:11:28] ✅ Created plan with Kiro: EMAIL_20260303_070542_19c930c249_plan.md
+[2026-03-03 07:11:30] 
+[3/30] Processing: EMAIL_20260303_070543_19c37a3452.md
+[2026-03-03 07:11:30] ✅ Created plan with Kiro: EMAIL_20260303_070543_19c37a3452_plan.md
+[2026-03-03 07:11:32] 
+[4/30] Processing: EMAIL_20260303_070544_19c2d355a1.md
+[2026-03-03 07:11:33] ✅ Created plan with Kiro: EMAIL_20260303_070544_19c2d355a1_plan.md
+[2026-03-03 07:11:35] 
+[5/30] Processing: EMAIL_20260303_070544_19c37a2875.md
+[2026-03-03 07:11:36] ✅ Created plan with Kiro: EMAIL_20260303_070544_19c37a2875_plan.md
+[2026-03-03 07:11:38] 
+[6/30] Processing: EMAIL_20260303_070545_199dea77e8.md
+[2026-03-03 07:11:40] ✅ Created plan with Kiro: EMAIL_20260303_070545_199dea77e8_plan.md
+[2026-03-03 07:11:42] 
+[7/30] Processing: EMAIL_20260303_070545_19b7b69def.md
+[2026-03-03 07:11:43] ✅ Created plan with Kiro: EMAIL_20260303_070545_19b7b69def_plan.md
+[2026-03-03 07:11:45] 
+[8/30] Processing: EMAIL_20260303_070545_19bde602f7.md
+[2026-03-03 07:11:47] ✅ Created plan with Kiro: EMAIL_20260303_070545_19bde602f7_plan.md
+[2026-03-03 07:11:49] 
+[9/30] Processing: EMAIL_20260303_070546_199bf750d7.md
+[2026-03-03 07:11:50] ✅ Created plan with Kiro: EMAIL_20260303_070546_199bf750d7_plan.md
+[2026-03-03 07:11:52] 
+[10/30] Processing: EMAIL_20260303_070547_199945b800.md
+[2026-03-03 07:11:54] ✅ Created plan with Kiro: EMAIL_20260303_070547_199945b800_plan.md
+[2026-03-03 07:11:56] 
+[11/30] Processing: EMAIL_20260303_071115_19c37a3452.md
+[2026-03-03 07:11:59] ✅ Created plan with Kiro: EMAIL_20260303_071115_19c37a3452_plan.md
+[2026-03-03 07:12:01] 
+[12/30] Processing: EMAIL_20260303_071115_19c5b0826b.md
+[2026-03-03 07:12:04] ✅ Created plan with Kiro: EMAIL_20260303_071115_19c5b0826b_plan.md
+[2026-03-03 07:12:06] 
+[13/30] Processing: EMAIL_20260303_071115_19c930c249.md
+[2026-03-03 07:12:08] ✅ Created plan with Kiro: EMAIL_20260303_071115_19c930c249_plan.md
+[2026-03-03 07:12:10] 
+[14/30] Processing: EMAIL_20260303_071116_199dea77e8.md
+[2026-03-03 07:12:12] ✅ Created plan with Kiro: EMAIL_20260303_071116_199dea77e8_plan.md
+[2026-03-03 07:12:14] 
+[15/30] Processing: EMAIL_20260303_071116_19b7b69def.md
+[2026-03-03 07:12:18] ✅ Created plan with Kiro: EMAIL_20260303_071116_19b7b69def_plan.md
+[2026-03-03 07:12:20] 
+[16/30] Processing: EMAIL_20260303_071116_19bde602f7.md
+[2026-03-03 07:12:26] ✅ Created plan with Kiro: EMAIL_20260303_071116_19bde602f7_plan.md
+[2026-03-03 07:12:28] 
+[17/30] Processing: EMAIL_20260303_071116_19c2d355a1.md
+[2026-03-03 07:12:34] ✅ Created plan with Kiro: EMAIL_20260303_071116_19c2d355a1_plan.md
+[2026-03-03 07:12:36] 
+[18/30] Processing: EMAIL_20260303_071116_19c37a2875.md
+[2026-03-03 07:12:40] ✅ Created plan with Kiro: EMAIL_20260303_071116_19c37a2875_plan.md
+[2026-03-03 07:12:42] 
+[19/30] Processing: EMAIL_20260303_071117_199945b800.md
+[2026-03-03 07:13:11] 
+============================================================
+[2026-03-03 07:13:11] 🚀 AI EMPLOYEE - STARTING
+[2026-03-03 07:13:11] ============================================================
+[2026-03-03 07:13:11] 📧 Running Gmail watcher...
+[2026-03-03 07:13:14] ✅ Gmail watcher completed
+[2026-03-03 07:13:14] 📊 Email files in Needs_Action: 40
+[2026-03-03 07:13:14] 📧 Processing 40 emails...
+[2026-03-03 07:13:14] 
+[1/40] Processing: EMAIL_20260303_070542_19c5b0826b.md
+[2026-03-03 07:13:15] ✅ Created plan with Kiro: EMAIL_20260303_070542_19c5b0826b_plan.md
+[2026-03-03 07:13:17] 
+[2/40] Processing: EMAIL_20260303_070542_19c930c249.md
+[2026-03-03 07:13:19] ✅ Created plan with Kiro: EMAIL_20260303_070542_19c930c249_plan.md
+[2026-03-03 07:13:21] 
+[3/40] Processing: EMAIL_20260303_070543_19c37a3452.md
+[2026-03-03 07:13:22] ✅ Created plan with Kiro: EMAIL_20260303_070543_19c37a3452_plan.md
+[2026-03-03 07:13:24] 
+[4/40] Processing: EMAIL_20260303_070544_19c2d355a1.md
+[2026-03-03 07:13:25] ✅ Created plan with Kiro: EMAIL_20260303_070544_19c2d355a1_plan.md
+[2026-03-03 07:13:27] 
+[5/40] Processing: EMAIL_20260303_070544_19c37a2875.md
+[2026-03-03 07:13:27] ✅ Created plan with Kiro: EMAIL_20260303_070544_19c37a2875_plan.md
+[2026-03-03 07:13:29] 
+[6/40] Processing: EMAIL_20260303_070545_199dea77e8.md
+[2026-03-03 07:13:32] ✅ Created plan with Kiro: EMAIL_20260303_070545_199dea77e8_plan.md
+[2026-03-03 07:13:34] 
+[7/40] Processing: EMAIL_20260303_070545_19b7b69def.md
+[2026-03-03 07:13:36] ✅ Created plan with Kiro: EMAIL_20260303_070545_19b7b69def_plan.md
+[2026-03-03 07:13:38] 
+[8/40] Processing: EMAIL_20260303_070545_19bde602f7.md
+[2026-03-03 07:13:40] ✅ Created plan with Kiro: EMAIL_20260303_070545_19bde602f7_plan.md
+[2026-03-03 07:13:42] 
+[9/40] Processing: EMAIL_20260303_070546_199bf750d7.md
+[2026-03-03 07:13:44] ✅ Created plan with Kiro: EMAIL_20260303_070546_199bf750d7_plan.md
+[2026-03-03 07:13:46] 
+[10/40] Processing: EMAIL_20260303_070547_199945b800.md
+[2026-03-03 07:13:48] ✅ Created plan with Kiro: EMAIL_20260303_070547_199945b800_plan.md
+[2026-03-03 07:13:50] 
+[11/40] Processing: EMAIL_20260303_071115_19c37a3452.md
+[2026-03-03 07:13:52] ✅ Created plan with Kiro: EMAIL_20260303_071115_19c37a3452_plan.md
+[2026-03-03 07:13:54] 
+[12/40] Processing: EMAIL_20260303_071115_19c5b0826b.md
+[2026-03-03 07:13:57] ✅ Created plan with Kiro: EMAIL_20260303_071115_19c5b0826b_plan.md
+[2026-03-03 07:13:59] 
+[13/40] Processing: EMAIL_20260303_071115_19c930c249.md
+[2026-03-03 07:14:02] ✅ Created plan with Kiro: EMAIL_20260303_071115_19c930c249_plan.md
+[2026-03-03 07:14:04] 
+[14/40] Processing: EMAIL_20260303_071116_199dea77e8.md
+[2026-03-03 07:14:06] ✅ Created plan with Kiro: EMAIL_20260303_071116_199dea77e8_plan.md
+[2026-03-03 07:14:08] 
+[15/40] Processing: EMAIL_20260303_071116_19b7b69def.md
+[2026-03-03 07:14:10] ✅ Created plan with Kiro: EMAIL_20260303_071116_19b7b69def_plan.md
+[2026-03-03 07:14:12] 
+[16/40] Processing: EMAIL_20260303_071116_19bde602f7.md
+[2026-03-03 07:14:16] ✅ Created plan with Kiro: EMAIL_20260303_071116_19bde602f7_plan.md
+[2026-03-03 07:14:18] 
+[17/40] Processing: EMAIL_20260303_071116_19c2d355a1.md
+[2026-03-03 07:14:20] ✅ Created plan with Kiro: EMAIL_20260303_071116_19c2d355a1_plan.md
+[2026-03-03 07:14:22] 
+[18/40] Processing: EMAIL_20260303_071116_19c37a2875.md
+[2026-03-03 07:14:27] ✅ Created plan with Kiro: EMAIL_20260303_071116_19c37a2875_plan.md
+[2026-03-03 07:14:29] 
+[19/40] Processing: EMAIL_20260303_071117_199945b800.md
+[2026-03-03 07:14:31] ✅ Created plan with Kiro: EMAIL_20260303_071117_199945b800_plan.md
+[2026-03-03 07:14:34] 
+[20/40] Processing: EMAIL_20260303_071117_199bf750d7.md
+[2026-03-03 07:14:36] ✅ Created plan with Kiro: EMAIL_20260303_071117_199bf750d7_plan.md
+[2026-03-03 07:14:38] 
+[21/40] Processing: EMAIL_20260303_071123_19c2d355a1.md
+[2026-03-03 07:14:41] ✅ Created plan with Kiro: EMAIL_20260303_071123_19c2d355a1_plan.md
+[2026-03-03 07:14:43] 
+[22/40] Processing: EMAIL_20260303_071123_19c37a2875.md
+[2026-03-03 07:14:46] ✅ Created plan with Kiro: EMAIL_20260303_071123_19c37a2875_plan.md
+[2026-03-03 07:14:48] 
+[23/40] Processing: EMAIL_20260303_071123_19c37a3452.md
+[2026-03-03 07:14:50] ✅ Created plan with Kiro: EMAIL_20260303_071123_19c37a3452_plan.md
+[2026-03-03 07:14:52] 
+[24/40] Processing: EMAIL_20260303_071123_19c5b0826b.md
+[2026-03-03 07:14:55] ✅ Created plan with Kiro: EMAIL_20260303_071123_19c5b0826b_plan.md
+[2026-03-03 07:14:57] 
+[25/40] Processing: EMAIL_20260303_071123_19c930c249.md
+[2026-03-03 07:15:03] ✅ Created plan with Kiro: EMAIL_20260303_071123_19c930c249_plan.md
+[2026-03-03 07:15:05] 
+[26/40] Processing: EMAIL_20260303_071124_199945b800.md
+[2026-03-03 07:15:07] ✅ Created plan with Kiro: EMAIL_20260303_071124_199945b800_plan.md
+[2026-03-03 07:15:09] 
+[27/40] Processing: EMAIL_20260303_071124_199bf750d7.md
+[2026-03-03 07:15:12] ✅ Created plan with Kiro: EMAIL_20260303_071124_199bf750d7_plan.md
+[2026-03-03 07:15:14] 
+[28/40] Processing: EMAIL_20260303_071124_199dea77e8.md
+[2026-03-03 07:15:22] ✅ Created plan with Kiro: EMAIL_20260303_071124_199dea77e8_plan.md
+[2026-03-03 07:15:24] 
+[29/40] Processing: EMAIL_20260303_071124_19b7b69def.md
+[2026-03-03 07:15:29] ✅ Created plan with Kiro: EMAIL_20260303_071124_19b7b69def_plan.md
+[2026-03-03 07:15:31] 
+[30/40] Processing: EMAIL_20260303_071124_19bde602f7.md
+[2026-03-03 07:15:35] ❌ Error with Kiro: [WinError 1455] The paging file is too small for this operation to complete
+[2026-03-03 07:15:35] ⚠️ Created fallback plan: EMAIL_20260303_071124_19bde602f7.md
+[2026-03-03 07:15:37] 
+[31/40] Processing: EMAIL_20260303_071257_19c37a2875.md
+[2026-03-03 07:15:43] ❌ Kiro failed for EMAIL_20260303_071257_19c37a2875.md
+[2026-03-03 07:15:43] Stderr: The system cannot execute the specified program.
+
+[2026-03-03 07:15:43] ⚠️ Created fallback plan: EMAIL_20260303_071257_19c37a2875.md
+[2026-03-03 07:15:45] 
+[32/40] Processing: EMAIL_20260303_071257_19c37a3452.md
+[2026-03-03 07:15:46] ✅ Created plan with Kiro: EMAIL_20260303_071257_19c37a3452_plan.md
+[2026-03-03 07:15:48] 
+[33/40] Processing: EMAIL_20260303_071257_19c5b0826b.md
+[2026-03-03 07:15:50] ✅ Created plan with Kiro: EMAIL_20260303_071257_19c5b0826b_plan.md
+[2026-03-03 07:15:52] 
+[34/40] Processing: EMAIL_20260303_071257_19c930c249.md
+[2026-03-03 07:15:54] ❌ Kiro failed for EMAIL_20260303_071257_19c930c249.md
+[2026-03-03 07:15:54] Stderr: The system cannot execute the specified program.
+
+[2026-03-03 07:15:55] ⚠️ Created fallback plan: EMAIL_20260303_071257_19c930c249.md
+[2026-03-03 07:15:57] 
+[35/40] Processing: EMAIL_20260303_071258_199dea77e8.md
+[2026-03-03 07:16:00] ✅ Created plan with Kiro: EMAIL_20260303_071258_199dea77e8_plan.md
+[2026-03-03 07:16:02] 
+[36/40] Processing: EMAIL_20260303_071258_19b7b69def.md
+[2026-03-03 07:16:03] ❌ Kiro failed for EMAIL_20260303_071258_19b7b69def.md
+[2026-03-03 07:16:03] Stderr: The system cannot execute the specified program.
+
+[2026-03-03 07:16:03] ⚠️ Created fallback plan: EMAIL_20260303_071258_19b7b69def.md
+[2026-03-03 07:16:05] 
+[37/40] Processing: EMAIL_20260303_071258_19bde602f7.md
+[2026-03-03 07:16:09] ✅ Created plan with Kiro: EMAIL_20260303_071258_19bde602f7_plan.md
+[2026-03-03 07:16:11] 
+[38/40] Processing: EMAIL_20260303_071258_19c2d355a1.md
+[2026-03-03 07:16:13] ❌ Error with Kiro: [WinError 1455] The paging file is too small for this operation to complete
+[2026-03-03 07:16:13] ⚠️ Created fallback plan: EMAIL_20260303_071258_19c2d355a1.md
+[2026-03-03 07:16:16] 
+[39/40] Processing: EMAIL_20260303_071302_199bf750d7.md
+[2026-03-03 07:16:17] ❌ Error with Kiro: [WinError 1455] The paging file is too small for this operation to complete
+[2026-03-03 07:16:17] ⚠️ Created fallback plan: EMAIL_20260303_071302_199bf750d7.md
+[2026-03-03 07:16:19] 
+[40/40] Processing: EMAIL_20260303_071303_199945b800.md
+[2026-03-03 07:16:23] ❌ Kiro failed for EMAIL_20260303_071303_199945b800.md
+[2026-03-03 07:16:23] Stderr: spawn UNKNOWN
+
+[2026-03-03 07:16:23] ⚠️ Created fallback plan: EMAIL_20260303_071303_199945b800.md
+[2026-03-03 07:16:25] 
+✅ Successful: 40
+[2026-03-03 07:16:25] ❌ Failed: 0
+[2026-03-03 07:16:26] ✅ Moved: EMAIL_20260303_070542_19c5b0826b.md -> Done/2026-03-03/
+[2026-03-03 07:16:28] ✅ Moved: EMAIL_20260303_070542_19c930c249.md -> Done/2026-03-03/
+[2026-03-03 07:16:30] ✅ Moved: EMAIL_20260303_070543_19c37a3452.md -> Done/2026-03-03/
+[2026-03-03 07:16:32] ✅ Moved: EMAIL_20260303_070544_19c2d355a1.md -> Done/2026-03-03/
+[2026-03-03 07:16:34] ✅ Moved: EMAIL_20260303_070544_19c37a2875.md -> Done/2026-03-03/
+[2026-03-03 07:16:36] ✅ Moved: EMAIL_20260303_070545_199dea77e8.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_070545_19b7b69def.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_070545_19bde602f7.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_070546_199bf750d7.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_070547_199945b800.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071115_19c37a3452.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071115_19c5b0826b.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071115_19c930c249.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071116_199dea77e8.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071116_19b7b69def.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071116_19bde602f7.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071116_19c2d355a1.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071116_19c37a2875.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071117_199945b800.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071117_199bf750d7.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071123_19c2d355a1.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071123_19c37a2875.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071123_19c37a3452.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071123_19c5b0826b.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071123_19c930c249.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071124_199945b800.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071124_199bf750d7.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071124_199dea77e8.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071124_19b7b69def.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071124_19bde602f7.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071257_19c37a2875.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071257_19c37a3452.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071257_19c5b0826b.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071257_19c930c249.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071258_199dea77e8.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071258_19b7b69def.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071258_19bde602f7.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071258_19c2d355a1.md -> Done/2026-03-03/
+[2026-03-03 07:16:37] ✅ Moved: EMAIL_20260303_071302_199bf750d7.md -> Done/2026-03-03/
+[2026-03-03 07:16:38] ✅ Moved: EMAIL_20260303_071303_199945b800.md -> Done/2026-03-03/
+[2026-03-03 07:16:38] 📊 Total moved: 40
+[2026-03-03 07:16:38] 📊 Dashboard updated
+[2026-03-03 07:16:38] ============================================================
+[2026-03-03 07:16:38] ✅ CYCLE COMPLETE
+[2026-03-03 07:16:38] ============================================================

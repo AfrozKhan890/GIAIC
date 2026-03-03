@@ -1,0 +1,222 @@
+[2026-03-03 06:22:53] 
+============================================================
+[2026-03-03 06:22:53] 🚀 STARTING AI EMPLOYEE CYCLE (FIXED VERSION)
+[2026-03-03 06:22:53] ============================================================
+[2026-03-03 06:22:53] 📧 Running Gmail watcher...
+[2026-03-03 06:22:58] ✅ Gmail watcher completed
+[2026-03-03 06:22:58] 📊 Files in Needs_Action: 40
+[2026-03-03 06:22:58] 📋 Processing 40 files one by one...
+[2026-03-03 06:22:58] 
+[1/40] Processing...
+[2026-03-03 06:22:58] 🔄 Processing: EMAIL_20260302_035601_19c5b0826b.md
+[2026-03-03 06:23:01] ❌ Failed to create plan for EMAIL_20260302_035601_19c5b0826b.md
+[2026-03-03 06:23:03] 
+[2/40] Processing...
+[2026-03-03 06:23:03] 🔄 Processing: EMAIL_20260302_035601_19c930c249.md
+[2026-03-03 06:23:04] ❌ Failed to create plan for EMAIL_20260302_035601_19c930c249.md
+[2026-03-03 06:23:06] 
+[3/40] Processing...
+[2026-03-03 06:23:06] 🔄 Processing: EMAIL_20260302_035602_19c2d355a1.md
+[2026-03-03 06:23:08] ❌ Failed to create plan for EMAIL_20260302_035602_19c2d355a1.md
+[2026-03-03 06:23:10] 
+[4/40] Processing...
+[2026-03-03 06:23:10] 🔄 Processing: EMAIL_20260302_035602_19c37a2875.md
+[2026-03-03 06:23:12] ❌ Failed to create plan for EMAIL_20260302_035602_19c37a2875.md
+[2026-03-03 06:23:14] 
+[5/40] Processing...
+[2026-03-03 06:23:14] 🔄 Processing: EMAIL_20260302_035602_19c37a3452.md
+[2026-03-03 06:23:16] ❌ Failed to create plan for EMAIL_20260302_035602_19c37a3452.md
+[2026-03-03 06:23:18] 
+[6/40] Processing...
+[2026-03-03 06:23:18] 🔄 Processing: EMAIL_20260302_035603_199bf750d7.md
+[2026-03-03 06:23:20] ❌ Failed to create plan for EMAIL_20260302_035603_199bf750d7.md
+[2026-03-03 06:23:22] 
+[7/40] Processing...
+[2026-03-03 06:23:22] 🔄 Processing: EMAIL_20260302_035603_199dea77e8.md
+[2026-03-03 06:23:25] ❌ Failed to create plan for EMAIL_20260302_035603_199dea77e8.md
+[2026-03-03 06:23:27] 
+[8/40] Processing...
+[2026-03-03 06:23:27] 🔄 Processing: EMAIL_20260302_035603_19b7b69def.md
+[2026-03-03 06:23:29] ❌ Failed to create plan for EMAIL_20260302_035603_19b7b69def.md
+[2026-03-03 06:23:31] 
+[9/40] Processing...
+[2026-03-03 06:23:31] 🔄 Processing: EMAIL_20260302_035603_19bde602f7.md
+[2026-03-03 06:23:36] ❌ Failed to create plan for EMAIL_20260302_035603_19bde602f7.md
+[2026-03-03 06:23:39] 
+[10/40] Processing...
+[2026-03-03 06:23:39] 🔄 Processing: EMAIL_20260302_035604_199945b800.md
+[2026-03-03 06:23:47] ❌ Failed to create plan for EMAIL_20260302_035604_199945b800.md
+[2026-03-03 06:23:49] 
+[11/40] Processing...
+[2026-03-03 06:23:49] 🔄 Processing: EMAIL_20260302_035758_19c5b0826b.md
+[2026-03-03 06:23:53] ❌ Failed to create plan for EMAIL_20260302_035758_19c5b0826b.md
+[2026-03-03 06:23:55] 
+[12/40] Processing...
+[2026-03-03 06:23:55] 🔄 Processing: EMAIL_20260302_035758_19c930c249.md
+[2026-03-03 06:23:58] ❌ Failed to create plan for EMAIL_20260302_035758_19c930c249.md
+[2026-03-03 06:24:00] 
+[13/40] Processing...
+[2026-03-03 06:24:00] 🔄 Processing: EMAIL_20260302_035759_19c2d355a1.md
+[2026-03-03 06:24:03] ❌ Failed to create plan for EMAIL_20260302_035759_19c2d355a1.md
+[2026-03-03 06:24:05] 
+[14/40] Processing...
+[2026-03-03 06:24:05] 🔄 Processing: EMAIL_20260302_035759_19c37a2875.md
+[2026-03-03 06:24:08] ❌ Failed to create plan for EMAIL_20260302_035759_19c37a2875.md
+[2026-03-03 06:24:10] 
+[15/40] Processing...
+[2026-03-03 06:24:10] 🔄 Processing: EMAIL_20260302_035759_19c37a3452.md
+[2026-03-03 06:24:13] ❌ Failed to create plan for EMAIL_20260302_035759_19c37a3452.md
+[2026-03-03 06:24:15] 
+[16/40] Processing...
+[2026-03-03 06:24:15] 🔄 Processing: EMAIL_20260302_035800_199bf750d7.md
+[2026-03-03 06:24:17] ❌ Failed to create plan for EMAIL_20260302_035800_199bf750d7.md
+[2026-03-03 06:24:19] 
+[17/40] Processing...
+[2026-03-03 06:24:19] 🔄 Processing: EMAIL_20260302_035800_199dea77e8.md
+[2026-03-03 06:24:22] ❌ Failed to create plan for EMAIL_20260302_035800_199dea77e8.md
+[2026-03-03 06:24:24] 
+[18/40] Processing...
+[2026-03-03 06:24:24] 🔄 Processing: EMAIL_20260302_035800_19b7b69def.md
+[2026-03-03 06:24:26] ❌ Failed to create plan for EMAIL_20260302_035800_19b7b69def.md
+[2026-03-03 06:24:28] 
+[19/40] Processing...
+[2026-03-03 06:24:28] 🔄 Processing: EMAIL_20260302_035800_19bde602f7.md
+[2026-03-03 06:24:31] ❌ Failed to create plan for EMAIL_20260302_035800_19bde602f7.md
+[2026-03-03 06:24:33] 
+[20/40] Processing...
+[2026-03-03 06:24:33] 🔄 Processing: EMAIL_20260302_035801_199945b800.md
+[2026-03-03 06:24:36] ❌ Failed to create plan for EMAIL_20260302_035801_199945b800.md
+[2026-03-03 06:24:38] 
+[21/40] Processing...
+[2026-03-03 06:24:38] 🔄 Processing: EMAIL_20260303_062119_19c37a3452.md
+[2026-03-03 06:24:43] ❌ Failed to create plan for EMAIL_20260303_062119_19c37a3452.md
+[2026-03-03 06:24:45] 
+[22/40] Processing...
+[2026-03-03 06:24:45] 🔄 Processing: EMAIL_20260303_062119_19c5b0826b.md
+[2026-03-03 06:24:46] ❌ Failed to create plan for EMAIL_20260303_062119_19c5b0826b.md
+[2026-03-03 06:24:48] 
+[23/40] Processing...
+[2026-03-03 06:24:48] 🔄 Processing: EMAIL_20260303_062119_19c930c249.md
+[2026-03-03 06:24:50] ❌ Failed to create plan for EMAIL_20260303_062119_19c930c249.md
+[2026-03-03 06:24:52] 
+[24/40] Processing...
+[2026-03-03 06:24:52] 🔄 Processing: EMAIL_20260303_062120_19b7b69def.md
+[2026-03-03 06:24:54] ❌ Failed to create plan for EMAIL_20260303_062120_19b7b69def.md
+[2026-03-03 06:24:56] 
+[25/40] Processing...
+[2026-03-03 06:24:56] 🔄 Processing: EMAIL_20260303_062120_19bde602f7.md
+[2026-03-03 06:24:57] ❌ Failed to create plan for EMAIL_20260303_062120_19bde602f7.md
+[2026-03-03 06:24:59] 
+[26/40] Processing...
+[2026-03-03 06:24:59] 🔄 Processing: EMAIL_20260303_062120_19c2d355a1.md
+[2026-03-03 06:25:01] ❌ Failed to create plan for EMAIL_20260303_062120_19c2d355a1.md
+[2026-03-03 06:25:03] 
+[27/40] Processing...
+[2026-03-03 06:25:03] 🔄 Processing: EMAIL_20260303_062120_19c37a2875.md
+[2026-03-03 06:25:05] ❌ Failed to create plan for EMAIL_20260303_062120_19c37a2875.md
+[2026-03-03 06:25:07] 
+[28/40] Processing...
+[2026-03-03 06:25:07] 🔄 Processing: EMAIL_20260303_062121_199945b800.md
+[2026-03-03 06:25:09] ❌ Failed to create plan for EMAIL_20260303_062121_199945b800.md
+[2026-03-03 06:25:11] 
+[29/40] Processing...
+[2026-03-03 06:25:11] 🔄 Processing: EMAIL_20260303_062121_199bf750d7.md
+[2026-03-03 06:25:13] ❌ Failed to create plan for EMAIL_20260303_062121_199bf750d7.md
+[2026-03-03 06:25:15] 
+[30/40] Processing...
+[2026-03-03 06:25:15] 🔄 Processing: EMAIL_20260303_062121_199dea77e8.md
+[2026-03-03 06:25:16] ❌ Failed to create plan for EMAIL_20260303_062121_199dea77e8.md
+[2026-03-03 06:25:18] 
+[31/40] Processing...
+[2026-03-03 06:25:18] 🔄 Processing: EMAIL_20260303_062255_19c930c249.md
+[2026-03-03 06:25:20] ❌ Failed to create plan for EMAIL_20260303_062255_19c930c249.md
+[2026-03-03 06:25:22] 
+[32/40] Processing...
+[2026-03-03 06:25:22] 🔄 Processing: EMAIL_20260303_062256_19bde602f7.md
+[2026-03-03 06:25:23] ❌ Failed to create plan for EMAIL_20260303_062256_19bde602f7.md
+[2026-03-03 06:25:25] 
+[33/40] Processing...
+[2026-03-03 06:25:25] 🔄 Processing: EMAIL_20260303_062256_19c2d355a1.md
+[2026-03-03 06:25:27] ❌ Failed to create plan for EMAIL_20260303_062256_19c2d355a1.md
+[2026-03-03 06:25:29] 
+[34/40] Processing...
+[2026-03-03 06:25:29] 🔄 Processing: EMAIL_20260303_062256_19c37a2875.md
+[2026-03-03 06:25:31] ❌ Failed to create plan for EMAIL_20260303_062256_19c37a2875.md
+[2026-03-03 06:25:33] 
+[35/40] Processing...
+[2026-03-03 06:25:33] 🔄 Processing: EMAIL_20260303_062256_19c37a3452.md
+[2026-03-03 06:25:35] ❌ Failed to create plan for EMAIL_20260303_062256_19c37a3452.md
+[2026-03-03 06:25:37] 
+[36/40] Processing...
+[2026-03-03 06:25:37] 🔄 Processing: EMAIL_20260303_062256_19c5b0826b.md
+[2026-03-03 06:25:39] ❌ Failed to create plan for EMAIL_20260303_062256_19c5b0826b.md
+[2026-03-03 06:25:41] 
+[37/40] Processing...
+[2026-03-03 06:25:41] 🔄 Processing: EMAIL_20260303_062257_199bf750d7.md
+[2026-03-03 06:25:43] ❌ Failed to create plan for EMAIL_20260303_062257_199bf750d7.md
+[2026-03-03 06:25:45] 
+[38/40] Processing...
+[2026-03-03 06:25:45] 🔄 Processing: EMAIL_20260303_062257_199dea77e8.md
+[2026-03-03 06:25:46] ❌ Failed to create plan for EMAIL_20260303_062257_199dea77e8.md
+[2026-03-03 06:25:48] 
+[39/40] Processing...
+[2026-03-03 06:25:48] 🔄 Processing: EMAIL_20260303_062257_19b7b69def.md
+[2026-03-03 06:25:50] ❌ Failed to create plan for EMAIL_20260303_062257_19b7b69def.md
+[2026-03-03 06:25:52] 
+[40/40] Processing...
+[2026-03-03 06:25:52] 🔄 Processing: EMAIL_20260303_062258_199945b800.md
+[2026-03-03 06:25:54] ❌ Failed to create plan for EMAIL_20260303_062258_199945b800.md
+[2026-03-03 06:25:56] 
+✅ Successful: 0
+[2026-03-03 06:25:56] ❌ Failed: 40
+[2026-03-03 06:25:56] 📊 Plans created: 9
+[2026-03-03 06:25:56] 📋 Plan files:
+[2026-03-03 06:25:56]    - applause_testing_slack_plan.md (1275 bytes)
+[2026-03-03 06:25:56]    - freelancer_morrie_message_plan.md (1281 bytes)
+[2026-03-03 06:25:56]    - github_oauth_app_plan.md (1320 bytes)
+[2026-03-03 06:25:56]    - google_classroom_lab01_plan.md (1425 bytes)
+[2026-03-03 06:25:56]    - infinityfree_suspension_plan.md (1301 bytes)
+[2026-03-03 06:26:09] 📊 Total moved to Done: 0
+[2026-03-03 06:26:09] ============================================================
+[2026-03-03 06:26:09] ✅ CYCLE COMPLETE
+[2026-03-03 06:26:09] ============================================================
+
+[2026-03-03 06:40:02] 
+============================================================
+[2026-03-03 06:40:02] 🚀 STARTING AI EMPLOYEE CYCLE (FIXED VERSION)
+[2026-03-03 06:40:02] ============================================================
+[2026-03-03 06:40:02] 📧 Running Gmail watcher...
+[2026-03-03 06:40:25] ✅ Gmail watcher completed
+[2026-03-03 06:40:25] 📊 Files in Needs_Action: 10
+[2026-03-03 06:40:25] 📋 Processing 10 files one by one...
+[2026-03-03 06:40:25] 
+[1/10] Processing...
+[2026-03-03 06:40:25] 🔄 Processing: EMAIL_20260303_063913_19c930c249.md
+[2026-03-03 06:40:26] ❌ Failed to create plan for EMAIL_20260303_063913_19c930c249.md
+[2026-03-03 06:40:28] 
+[2/10] Processing...
+[2026-03-03 06:40:28] 🔄 Processing: EMAIL_20260303_063914_19c37a2875.md
+[2026-03-03 06:40:30] ❌ Failed to create plan for EMAIL_20260303_063914_19c37a2875.md
+[2026-03-03 06:40:32] 
+[3/10] Processing...
+[2026-03-03 06:40:32] 🔄 Processing: EMAIL_20260303_063914_19c37a3452.md
+[2026-03-03 06:40:34] ❌ Failed to create plan for EMAIL_20260303_063914_19c37a3452.md
+[2026-03-03 06:40:36] 
+[4/10] Processing...
+[2026-03-03 06:40:36] 🔄 Processing: EMAIL_20260303_063914_19c5b0826b.md
+[2026-03-03 06:40:37] ❌ Failed to create plan for EMAIL_20260303_063914_19c5b0826b.md
+[2026-03-03 06:40:39] 
+[5/10] Processing...
+[2026-03-03 06:40:39] 🔄 Processing: EMAIL_20260303_063915_19b7b69def.md
+[2026-03-03 06:40:41] ❌ Failed to create plan for EMAIL_20260303_063915_19b7b69def.md
+[2026-03-03 06:40:43] 
+[6/10] Processing...
+[2026-03-03 06:40:43] 🔄 Processing: EMAIL_20260303_063915_19bde602f7.md
+[2026-03-03 06:40:45] ❌ Failed to create plan for EMAIL_20260303_063915_19bde602f7.md
+[2026-03-03 06:40:47] 
+[7/10] Processing...
+[2026-03-03 06:40:47] 🔄 Processing: EMAIL_20260303_063915_19c2d355a1.md
+[2026-03-03 06:40:49] ❌ Failed to create plan for EMAIL_20260303_063915_19c2d355a1.md
+[2026-03-03 06:40:51] 
+[8/10] Processing...
+[2026-03-03 06:40:51] 🔄 Processing: EMAIL_20260303_063916_199bf750d7.md

@@ -1,4 +1,6 @@
 credentials.json
 token.pickle
 .env
-Need_Action/
+Needs_Action/
+Done/
+PLans/

@@ -24,7 +24,10 @@ class GmailWatcher:
         self.needs_action = self.vault_path / 'Needs_Action'
         self.logs_path = self.vault_path / 'Logs'
         self.processed_ids = set()
-        
+        self.processed_file = self.logs_path / "processed_ids.txt"
+
+        if self.processed_file.exists():
+            self.processed_ids = set(self.processed_file.read_text().splitlines())
         # Log file initialize karo
         self.log_file = self.logs_path / f'gmail_watcher_{datetime.now().strftime("%Y%m%d")}.log'
         
@@ -161,6 +164,8 @@ _Add your notes here_
                     filepath = self.create_action_file(email_data)
                     new_files.append(filepath)
                     self.processed_ids.add(message['id'])
+                    with open(self.processed_file, "a", encoding="utf-8") as f:
+                        f.write(message['id'] + "\n")
             
             return new_files
             
