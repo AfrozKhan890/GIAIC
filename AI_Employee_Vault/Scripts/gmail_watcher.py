@@ -192,8 +192,7 @@ _Add your notes here_
 def main():
     """Main function to run the watcher"""
     # Vault path - ye change karo apne actual path ke according
-    # vault_path = r"C:\Users\afroz\Desktop\GIAIC\AI_Employee_Vault"
-    vault_path = r"C:\Users\afroz\Desktop\GIAIC\AI_Employee_Vault"
+    vault_path = r"C:\Users\afroz\OneDrive\Desktop\AI_Employee_Vault"
     
     # Create watcher instance
     watcher = GmailWatcher(vault_path)
